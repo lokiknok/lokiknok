@@ -6,7 +6,7 @@
 
 </div>
 
-# 🌈 About Me
+# About Me
 
 ✨ **BCA Graduate** from Bharathiar University
 
