@@ -1,19 +1,18 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=gradient&text=Lohith%20V&fontSize=70&fontAlignY=40&animation=fadeIn&desc=MERN%20Stack%20Developer%20%7C%20Java%20Developer&descAlignY=60" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=gradient&text=Lohith%20V&fontSize=70&fontAlignY=40&animation=fadeIn&desc=AI%20%26%20ML%20Developer%20%7C%20Python%20Developer&descAlignY=60" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=25&duration=3000&pause=1000&color=4FC3F7&center=true&vCenter=true&width=900&lines=Software+Developer;MERN+Stack+Developer;Java+Developer;Open+Source+Learner;Building+Real-World+Projects" />
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=25&duration=3000&pause=1000&color=4FC3F7&center=true&vCenter=true&width=900&lines=Python+Developer;AI+&+ML+Engineer;Deep+Learning+Enthusiast;Data+Science+Learner;Building+Intelligent+Systems" />
 
 </div>
+
 # 🌈 About Me
 
 ✨ **BCA Graduate** from Bharathiar University
 
-🚀 **MERN Stack Developer**
+🚀 **AI & ML Python Developer**
 
-☕ **Java Developer**
-
-💻 Passionate about Full Stack Development
+🧠 Passionate about Artificial Intelligence & Data Science
 
 📚 Tamil Literature Enthusiast
 
@@ -21,7 +20,8 @@
 
 🍳 Cooking Enthusiast
 
-🎯 Seeking Software Developer Opportunities
+🎯 Seeking AI/ML & Software Developer Opportunities
+
 ---
 
 # 🌐 My Portfolio
@@ -40,25 +40,27 @@
 
 <div align="center">
 
-### 💻 Languages
+### 💻 Languages & Core
 
-<img src="https://skillicons.dev/icons?i=java,js,cpp" />
+<img src="https://skillicons.dev/icons?i=python,java,cpp,js" />
 
-### 🎨 Frontend
+### 🧠 AI / ML & Data Science
 
-<img src="https://skillicons.dev/icons?i=html,css,react,bootstrap" />
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn" />
+<p><em>Pandas • NumPy • OpenCV • Keras</em></p>
 
-### ⚙️ Backend
+### ⚙️ Backend & APIs
 
-<img src="https://skillicons.dev/icons?i=nodejs,express" />
+<img src="https://skillicons.dev/icons?i=flask,fastapi,nodejs" />
 
 ### 🗄️ Database
 
 <img src="https://skillicons.dev/icons?i=mongodb,mysql" />
 
-### 🛠️ Tools
+### 🛠️ Tools & Environments
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode" />
+<img src="https://skillicons.dev/icons?i=git,github,vscode,pycharm" />
+<p><em>Jupyter Notebook • Google Colab</em></p>
 
 </div>
 
@@ -66,60 +68,32 @@
 
 # 📂 Featured Projects
 
-## 📖 Dictionary Web Application
+## 🧠 Intelligent Chatbot (NLP)
+🔹 Natural Language Processing
+🔹 Text Preprocessing & Tokenization
+🔹 Sentiment Analysis & Intent Recognition
+🔹 Flask/FastAPI Backend Integration
 
-🔹 Book-themed UI
+## 👁️ Computer Vision Object Detection System
+🔹 OpenCV & CNN Architecture
+🔹 Real-Time Image Classification
+🔹 Feature Extraction & Data Augmentation
+🔹 Python-based Inference Pipeline
 
-🔹 Alphabet Navigation (A-Z)
+## 📈 Predictive Analytics & Sales Forecasting
+🔹 Scikit-Learn Regression & Classification Models
+🔹 Pandas & NumPy Data Wrangling
+🔹 Exploratory Data Analysis (EDA) & Visualization
+🔹 Model Evaluation & Performance Tuning
 
-🔹 Smart Word Search
-
-🔹 Responsive Design
-
----
-
-## 🛒 MERN Full Stack Application
-
-🔹 React Frontend
-
-🔹 Node.js Backend
-
-🔹 Express REST APIs
-
-🔹 MongoDB Database
-
----
-
-## 🎓 Student Management System
-
-🔹 CRUD Operations
-
-🔹 MySQL Integration
-
-🔹 User Management
-
----
-
-## ☕ Cafe Management System
-
-🔹 Billing System
-
-🔹 Customer Records
-
-🔹 Java Swing Application
-
----
+## 🎬 Recommendation Engine
+🔹 Collaborative Filtering & Content-Based Filtering
+🔹 Cosine Similarity Metrics
+🔹 Matrix Factorization Techniques
 
 ## 🌐 Personal Portfolio Website
-
-🔹 Modern UI/UX
-
-🔹 Mobile Responsive
-
-🔹 Project Showcase
-
----
-
+🔹 Modern UI/UX showcasing AI projects
+🔹 Mobile Responsive Design
 
 ---
 
@@ -130,10 +104,6 @@
 <img src="https://github-readme-streak-stats.herokuapp.com?user=lokiknok&theme=tokyonight&hide_border=true"/>
 
 </div>
-
----
-
-
 
 ---
 
@@ -159,13 +129,13 @@
 
 # 🎯 Current Focus
 
-🌱 Learning Advanced MERN Stack Development
+🌱 Learning Advanced Machine Learning & Deep Learning
 
-⚡ Building Real-World Full Stack Applications
+⚡ Building Real-World AI/ML Applications
 
-📚 Improving Data Structures & Algorithms
+📚 Improving Mathematics for Machine Learning & Statistics
 
-☕ Strengthening Java Backend Skills
+🐍 Strengthening Python & Data Structures Skills
 
 ---
 
@@ -173,11 +143,12 @@
 
 <img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="500"/>
 
-### 💙 Code • Build • Learn • Repeat
+### 💙 Code • Train • Predict • Repeat
 
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=gradient"/>
+
 ## 🍪 The Profile Cookie Jar
 
 Have a look around! Feel free to grab a cookie or leave one for the next developer.
@@ -190,6 +161,7 @@ Have a look around! Feel free to grab a cookie or leave one for the next develop
     <img src="https://img.shields.io/badge/🥛_Take_a_Cookie-E0E0E0?style=for-the-badge" />
   </a>
 </p>
+
 ---
 
 # 💬 Dev Quote of the Day
