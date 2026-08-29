@@ -1,173 +1,137 @@
-<div align="center">
+# Lohith V — Python & AI/ML Developer Portfolio
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=gradient&text=Lohith%20V&fontSize=70&fontAlignY=40&animation=fadeIn&desc=AI%20%26%20ML%20Developer%20%7C%20Python%20Developer&descAlignY=60" width="100%"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=25&duration=3000&pause=1000&color=4FC3F7&center=true&vCenter=true&width=900&lines=Python+Developer;AI+&+ML+Engineer;Deep+Learning+Enthusiast;Data+Science+Learner;Building+Intelligent+Systems" />
-
-</div>
-
-# About Me
-
-✨ **BCA Graduate** from Bharathiar University
-
-🚀 **AI & ML Python Developer**
-
-🧠 Passionate about Artificial Intelligence & Data Science
-
-📚 Tamil Literature Enthusiast
-
-🏋️ Fitness Enthusiast
-
-🍳 Cooking Enthusiast
-
-🎯 Seeking AI/ML & Software Developer Opportunities
+A futuristic, high-performance developer portfolio built for **Lohith V**. Designed with a dark futuristic aesthetic, translucent glassmorphism panels, cyan/blue/purple neon accents, Space Grotesk typography, and a centralized data architecture.
 
 ---
 
-# 🌐 My Portfolio
+## 🚀 Live Preview & Architecture
 
-<div align="center">
-
-### 🚀 Check Out My Portfolio Website
-
-[![Portfolio](https://img.shields.io/badge/🌐_Visit_My_Portfolio-00C9FF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://lokiknok.github.io/lokiknok/)
-
-</div>
+- **Primary Technologies**: React 18, Vite 6, Tailwind CSS, Lucide Icons
+- **Theme**: Dark Futuristic Glassmorphism (`#070a12`) with Neon Glow Highlights
+- **Deployment Target**: GitHub Pages (via GitHub Actions)
 
 ---
 
-# 🚀 Tech Stack
+## 🛠️ Tech Stack
 
-<div align="center">
-
-### 💻 Languages & Core
-
-<img src="https://skillicons.dev/icons?i=python,java,cpp,js" />
-
-### 🧠 AI / ML & Data Science
-
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn" />
-<p><em>Pandas • NumPy • OpenCV • Keras</em></p>
-
-### ⚙️ Backend & APIs
-
-<img src="https://skillicons.dev/icons?i=flask,fastapi,nodejs" />
-
-### 🗄️ Database
-
-<img src="https://skillicons.dev/icons?i=mongodb,mysql" />
-
-### 🛠️ Tools & Environments
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,pycharm" />
-<p><em>Jupyter Notebook • Google Colab</em></p>
-
-</div>
+| Domain | Technologies |
+|---|---|
+| **Frontend Framework** | React 18 + Vite 6 |
+| **Styling & Effects** | Tailwind CSS, Backdrop-blur, Neon CSS Gradients, Custom Animations |
+| **Icons** | Lucide React |
+| **Typography** | Space Grotesk (Headings), Inter (Body), JetBrains Mono (Code) |
+| **Deployment** | GitHub Pages + GitHub Actions CI/CD (`deploy.yml`) |
 
 ---
 
-# 📂 Featured Projects
+## 📁 Project Structure
 
-## 🧠 Intelligent Chatbot (NLP)
-🔹 Natural Language Processing
-🔹 Text Preprocessing & Tokenization
-🔹 Sentiment Analysis & Intent Recognition
-🔹 Flask/FastAPI Backend Integration
-
-## 👁️ Computer Vision Object Detection System
-🔹 OpenCV & CNN Architecture
-🔹 Real-Time Image Classification
-🔹 Feature Extraction & Data Augmentation
-🔹 Python-based Inference Pipeline
-
-## 📈 Predictive Analytics & Sales Forecasting
-🔹 Scikit-Learn Regression & Classification Models
-🔹 Pandas & NumPy Data Wrangling
-🔹 Exploratory Data Analysis (EDA) & Visualization
-🔹 Model Evaluation & Performance Tuning
-
-## 🎬 Recommendation Engine
-🔹 Collaborative Filtering & Content-Based Filtering
-🔹 Cosine Similarity Metrics
-🔹 Matrix Factorization Techniques
-
-## 🌐 Personal Portfolio Website
-🔹 Modern UI/UX showcasing AI projects
-🔹 Mobile Responsive Design
-
----
-
-# 🔥 GitHub Streak
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=lokiknok&theme=tokyonight&hide_border=true"/>
-
-</div>
+```
+loki-porfololi/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml            # Automated GitHub Pages CI/CD workflow
+├── public/
+│   ├── assets/
+│   │   ├── profile.jpg           # Authentic profile photo
+│   │   └── Lohith_V_Resume.pdf   # Verified downloadable resume PDF
+│   └── favicon.svg               # Futuristic brand favicon
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx            # Sticky frosted glass navbar with active section spy
+│   │   ├── Hero.jsx              # Hero with neon typography & orbital photo frame
+│   │   ├── About.jsx             # About section with 4 compact info cards
+│   │   ├── Skills.jsx            # Categorized glowing technology cards
+│   │   ├── Services.jsx          # 4 focus cards (Python, AI/ML, Automation, APIs)
+│   │   ├── Projects.jsx          # AI Web Research Assistant & architecture modal
+│   │   ├── Process.jsx           # 5-step interactive glowing timeline
+│   │   ├── Contact.jsx           # Direct mailto contact form & social channels
+│   │   └── Footer.jsx            # Minimal futuristic footer & back-to-top button
+│   ├── data/
+│   │   └── portfolio.js          # Centralized data file (bio, skills, links, projects)
+│   ├── App.jsx                   # Layout assembly with ambient glows & grid pattern
+│   ├── index.css                 # Custom glassmorphism, neon tokens & animations
+│   └── main.jsx                  # React DOM mount
+├── index.html                    # SEO metadata, Open Graph tags & Google Fonts
+├── vite.config.js                # Vite configured with base: './' for GitHub Pages
+├── tailwind.config.js            # Dark theme, neon shadows & custom keyframes
+├── package.json
+└── README.md
+```
 
 ---
 
-# 🌐 Connect With Me
+## 💻 Local Development
 
-<div align="center">
+### 1. Prerequisites
+- **Node.js**: v18.0.0 or higher
+- **npm**: v9.0.0 or higher
 
-<a href="mailto:lohithv0126@gmail.com">
-<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
+### 2. Install Dependencies
+```bash
+npm install
+```
 
-<a href="https://github.com/lokiknok">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+### 3. Run Development Server
+```bash
+npm run dev
+```
+Open your browser at `http://localhost:5173/`.
 
-<a href="https://linkedin.com">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-</div>
-
----
-
-# 🎯 Current Focus
-
-🌱 Learning Advanced Machine Learning & Deep Learning
-
-⚡ Building Real-World AI/ML Applications
-
-📚 Improving Mathematics for Machine Learning & Statistics
-
-🐍 Strengthening Python & Data Structures Skills
+### 4. Build for Production
+```bash
+npm run build
+```
+The optimized static bundle will be output to the `dist/` directory with relative asset paths.
 
 ---
 
-<div align="center">
+## 🌐 Deploying to GitHub Pages
 
-<img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="500"/>
+This repository is pre-configured for automated GitHub Pages deployment using GitHub Actions.
 
-### 💙 Code • Train • Predict • Repeat
+### Step 1: Initialize Git & Commit
+If you haven't initialized Git yet:
+```bash
+git init
+git add .
+git commit -m "feat: modern futuristic portfolio for Park"
+```
 
-</div>
+### Step 2: Add Remote & Push to Main
+Replace `<USERNAME>` and `<REPO_NAME>` with your GitHub details:
+```bash
+git branch -M main
+git remote add origin https://github.com/<USERNAME>/<REPO_NAME>.git
+git push -u origin main
+```
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=gradient"/>
+### Step 3: Enable GitHub Pages in Repository Settings
+1. Go to your GitHub repository on github.com.
+2. Navigate to **Settings** ➔ **Pages**.
+3. Under **Build and deployment** ➔ **Source**, select **GitHub Actions**.
+4. The workflow in `.github/workflows/deploy.yml` will automatically build and publish your site!
 
-## 🍪 The Profile Cookie Jar
-
-Have a look around! Feel free to grab a cookie or leave one for the next developer.
-
-<p align="left">
-  <a href="https://github.com/lokiknok/lokiknok/issues/new?title=Cookie%3A+Add+Cookie&body=I+left+a+cookie+for+Lohith!">
-    <img src="https://img.shields.io/badge/🍪_Give_Lohith_a_Cookie-FFB300?style=for-the-badge" />
-  </a>
-  <a href="https://github.com/lokiknok/lokiknok/issues/new?title=Cookie%3A+Eat+Cookie&body=I+ate+a+cookie+from+the+jar!">
-    <img src="https://img.shields.io/badge/🥛_Take_a_Cookie-E0E0E0?style=for-the-badge" />
-  </a>
-</p>
+### Step 4: Expected Live URL
+Your portfolio will be live at:
+```
+https://<USERNAME>.github.io/<REPO_NAME>/
+```
+Because Vite is configured with `base: './'`, all assets, scripts, images, and fonts will load properly without blank screen or 404 errors.
 
 ---
 
-# 💬 Dev Quote of the Day
+## ✏️ Customization & Updating Content
 
-<div align="center">
+All personal content is centralized in **`src/data/portfolio.js`**. You can easily modify:
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />
+- **Contact Info & Social Links**: Email, phone, LinkedIn, GitHub.
+- **Projects**: Add new repositories, screenshots, and live demo links.
+- **Skills**: Update categories and notes.
+- **Resume File**: Place any updated PDF inside `public/assets/` and update `resumeUrl` in `src/data/portfolio.js`.
 
-</div>
+---
+
+## 📄 License
+© 2026 Lohith V (Park). All rights reserved.
+
