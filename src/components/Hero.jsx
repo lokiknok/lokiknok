@@ -4,14 +4,7 @@ import {
   Download, 
   Github, 
   Linkedin, 
-  Mail, 
-  Terminal, 
-  Cpu, 
-  BrainCircuit, 
-  Bot,
-  Sparkles,
-  Layers,
-  Code2
+  Mail 
 } from 'lucide-react';
 import { personalInfo } from '../data/portfolio';
 
@@ -146,21 +139,7 @@ export default function Hero() {
           <div className="absolute w-[360px] h-[360px] sm:w-[440px] sm:h-[440px] orbit-ring animate-spin-slow pointer-events-none" />
           <div className="absolute w-[420px] h-[420px] sm:w-[500px] sm:h-[500px] orbit-ring-purple animate-spin-reverse-slow pointer-events-none" />
 
-          {/* Floating Technology Badges / Code Snippets */}
-          <div className="absolute -top-4 -left-6 hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-xl bg-slate-950/80 backdrop-blur-md border border-cyan-500/30 text-cyan-300 text-[11px] font-mono shadow-neon-cyan/20 animate-float-slow z-20">
-            <Terminal className="w-3.5 h-3.5 text-cyan-400" />
-            <span>python: 3.11</span>
-          </div>
 
-          <div className="absolute top-1/4 -right-8 hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-xl bg-slate-950/80 backdrop-blur-md border border-purple-500/30 text-purple-300 text-[11px] font-mono shadow-neon-purple/20 animate-float-slow z-20" style={{ animationDelay: '1.5s' }}>
-            <BrainCircuit className="w-3.5 h-3.5 text-purple-400" />
-            <span>RAG & Embeddings</span>
-          </div>
-
-          <div className="absolute -bottom-4 -left-4 hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-xl bg-slate-950/80 backdrop-blur-md border border-sky-500/30 text-sky-300 text-[11px] font-mono shadow-glass-dark animate-float-slow z-20" style={{ animationDelay: '3s' }}>
-            <Bot className="w-3.5 h-3.5 text-sky-400" />
-            <span>Playwright Crawler</span>
-          </div>
 
           {/* Futuristic Frame Container with 3D Tilt */}
           <div
@@ -202,18 +181,7 @@ export default function Hero() {
               {/* Futuristic Glass Reflection Sheen */}
               <div className="absolute inset-0 bg-gradient-to-tr from-cyan-950/20 via-transparent to-white/10 pointer-events-none" />
 
-              {/* Lower Floating Tech Metadata Card */}
-              <div className="absolute bottom-3 left-3 right-3 p-2.5 rounded-xl bg-slate-950/80 backdrop-blur-md border border-white/10 text-white flex items-center justify-between shadow-xl">
-                <div className="flex items-center gap-2">
-                  <div className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse" />
-                  <span className="text-[10px] font-mono tracking-wider font-semibold uppercase text-slate-200">
-                    CORE: PYTHON • AI
-                  </span>
-                </div>
-                <span className="text-[9px] font-mono px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-300 border border-cyan-400/30 font-medium">
-                  LIVE MOTION
-                </span>
-              </div>
+
             </div>
 
           </div>
