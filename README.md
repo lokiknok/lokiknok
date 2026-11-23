@@ -1,101 +1,195 @@
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:effaff,50:8fd8ff,100:6ea8ff&text=LOHITH%20V&fontSize=46&fontColor=0b1f33&fontAlignY=38&desc=Python%20%7C%20AI%2FML%20%7C%20Automation&descAlignY=60&descSize=18&animation=twinkling" width="100%"/>
-<a href="https://readme-typing-svg.demolab.com/">
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=21&pause=1400&color=2196F3&center=true&vCenter=true&width=760&height=55&lines=Python+%26+AI%2FML+Developer;Building+Practical+AI+Applications;Automation+%7C+Web+Tools+%7C+Machine+Learning;Open+to+Entry-Level+Opportunities" alt="Animated typing introduction"/>
-</a>
-<br/>
-<a href="https://lokiknok.onrender.com/">
-<img src="https://img.shields.io/badge/%E2%9C%A8%20LIVE%20PORTFOLIO-Visit%20Website-2196F3?style=for-the-badge&logo=googlechrome&logoColor=white"/>
-</a>
-<a href="https://github.com/lokiknok">
-<img src="https://img.shields.io/badge/GitHub-lokiknok-111827?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:effaff,50:8fd8ff,100:6ea8ff&text=LOHITH%20V&fontSize=46&fontColor=0b1f33&fontAlignY=38&desc=BCA%20Student%20%7C%20Python%20%7C%20SQL%20%7C%20AI%2FML&descAlignY=60&descSize=17&animation=twinkling" width="100%"/>
+
+  <h3>🚀 Learning Today. Building Tomorrow.</h3>
+
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=19&pause=1200&color=2196F3&center=true&vCenter=true&width=750&height=55&lines=Python+Developer+in+Progress;SQL+%7C+Database+Management;Object-Oriented+Programming;Exploring+Artificial+Intelligence+%26+ML;Building+Practical+Software+Projects" />
+
+  <br/>
+
+  <a href="https://lokiknok.onrender.com/">
+    <img src="https://img.shields.io/badge/🌐%20Portfolio-Visit%20Website-2196F3?style=for-the-badge"/>
+  </a>
+  <a href="https://github.com/lokiknok">
+    <img src="https://img.shields.io/badge/GitHub-Follow-111827?style=for-the-badge&logo=github"/>
+  </a>
 </div>
+
 ---
-👋 About Me
-I'm Lohith V, a BCA graduate focused on Python, Artificial Intelligence, Machine Learning, and automation.
-I enjoy turning ideas into practical software, especially tools that combine Python, AI, web technologies, and automation.
-```text
-Focus
-├── Python
-├── Artificial Intelligence
-├── Machine Learning
-├── Automation
-├── Web Development
-└── Practical Problem Solving
-```
-> Building useful things, learning continuously, and trying not to let configuration files win.
+
+## 👋 About Me
+
+Hi, I'm **Lohith V**, a BCA student passionate about programming, technology, and building practical applications.
+
+I'm continuously improving my technical skills through hands-on projects, coding challenges, and practical problem-solving.
+
+- 🐍 Learning and building with Python
+- 🗄️ Practising SQL and database management
+- 🧩 Exploring Object-Oriented Programming (OOP)
+- 🤖 Exploring Artificial Intelligence and Machine Learning
+- ⚙️ Interested in automation and real-world applications
+- 🌱 Focused on continuous learning and development
+
+> My goal is to turn programming knowledge into useful, real-world solutions.
+
 ---
-🚀 Featured Portfolio
-🌐 Personal Portfolio
-A modern, responsive portfolio built to showcase my skills, projects, profile, and career journey.
-Live: https://lokiknok.onrender.com/
-Repository: https://github.com/lokiknok/lokiknok
-🤖 AI Web Research Assistant
-An AI-powered web research application designed to:
-Extract information from webpages
-Process and summarize content
-Support conversational interaction with researched information
-Combine web automation with AI workflows
-Focus: Python · AI · Web Scraping · Automation · NLP
----
-🧠 Tech Stack
+
+## 🧠 Technical Skills
+
 <div align="center">
-<img src="https://skillicons.dev/icons?i=python,html,css,js,flask,git,github,vscode&perline=8" />
-<br/><br/>
-<img src="https://img.shields.io/badge/Python-Expertise%20Focus-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/AI%20%2F%20ML-Learning%20%26%20Building-6C63FF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Automation-Building-00A8E8?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Web%20Development-Working%20Knowledge-0EA5E9?style=for-the-badge"/>
+
+### Programming & Database
+
+<img src="https://skillicons.dev/icons?i=python,mysql,html,css,js&perline=6"/>
+
+### Tools & Technologies
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,flask&perline=6"/>
+
 </div>
+
+### Areas of Learning
+
+| Area | Focus |
+|---|---|
+| Python | Programming fundamentals and problem-solving |
+| OOP | Encapsulation, Inheritance, Polymorphism, Abstraction |
+| SQL | Queries, filtering, joins and data manipulation |
+| Database | Relational database concepts |
+| AI / ML | Exploring machine learning and AI applications |
+| Automation | Practical automation workflows |
+| Web Development | HTML, CSS, JavaScript and Flask |
+
 ---
-⚡ What I Build
-<table>
-<tr>
-<td width="33%" align="center">
-🐍 Python
-Practical applications, APIs, automation, data processing, and backend logic.
-</td>
-<td width="33%" align="center">
-🧠 AI / ML
-Machine learning experiments and AI-powered applications focused on useful real-world workflows.
-</td>
-<td width="33%" align="center">
-⚙️ Automation
-Web automation, scraping, repetitive-task automation, and intelligent workflows.
-</td>
-</tr>
-</table>
----
-📊 GitHub Activity
+
+## 🏆 Certifications
+
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=lokiknok&show_icons=true&hide_border=true&bg_color=00000000&title_color=2196F3&icon_color=2196F3&text_color=64748B" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lokiknok&layout=compact&hide_border=true&bg_color=00000000&title_color=2196F3&text_color=64748B" height="165"/>
+
+<img src="https://img.shields.io/badge/HackerRank-SQL%20(Basic)-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"/>
+
+### SQL (Basic) – HackerRank
+
+Successfully passed the HackerRank SQL Basic Skill Certification Test.
+
+📅 Earned: 23 November 2026
+
 </div>
+
 ---
-🧩 Current Direction
+
+## 🚀 Featured Projects
+
+### 🌐 Personal Portfolio Website
+
+A personal portfolio website showcasing my profile, technical skills, projects, and learning journey.
+
+- Responsive web design
+- Personal profile and project showcase
+- Online portfolio deployment
+
+**Live:** https://lokiknok.onrender.com/
+
+**Repository:** https://github.com/lokiknok/lokiknok
+
+### 🤖 AI Web Research Assistant
+
+An AI-powered web research application focused on combining web technologies, information extraction, and AI workflows.
+
+Key areas:
+- Webpage information extraction
+- Content processing and summarization
+- Conversational interaction
+- Web automation
+
+**Technologies:** Python · AI · Web Scraping · Automation · NLP
+
+---
+
+## 📚 Currently Learning
+
 ```text
-2026
+MY LEARNING JOURNEY
 │
-├── 🐍 Deepening Python
-├── 🧠 Building AI/ML projects
-├── ⚙️ Learning automation workflows
-├── 🌐 Building practical web applications
-└── 🎯 Looking for an entry-level opportunity
+├── 🐍 Python
+│   ├── Core Python
+│   ├── Functions & Data Structures
+│   └── Object-Oriented Programming
+│       ├── Encapsulation
+│       ├── Inheritance
+│       ├── Polymorphism
+│       └── Abstraction
+│
+├── 🗄️ SQL
+│   ├── SELECT & WHERE
+│   ├── GROUP BY & ORDER BY
+│   ├── Joins
+│   └── Aggregate Functions
+│
+├── 🤖 Artificial Intelligence
+│   ├── AI Fundamentals
+│   └── Machine Learning Concepts
+│
+└── ⚙️ Practical Development
+    ├── Web Development
+    ├── Automation
+    └── Real-World Projects
 ```
+
 ---
-🌐 Connect With Me
+
+## 📊 GitHub Statistics
+
 <div align="center">
-<a href="https://lokiknok.onrender.com/">
-<img src="https://img.shields.io/badge/Portfolio-2196F3?style=for-the-badge&logo=googlechrome&logoColor=white"/>
-</a>
-<a href="https://github.com/lokiknok">
-<img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-</div>
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=lokiknok&show_icons=true&hide_border=true&bg_color=00000000&title_color=2196F3&icon_color=2196F3&text_color=64748B"/>
+
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lokiknok&layout=compact&hide_border=true&bg_color=00000000&title_color=2196F3&text_color=64748B"/>
+
 <br/>
+
+<img src="https://streak-stats.demolab.com?user=lokiknok&theme=transparent&hide_border=true&ring=2196F3&fire=2196F3&currStreakLabel=2196F3"/>
+
+</div>
+
+---
+
+## 🎯 My 2026 Goals
+
+- [ ] Strengthen Python programming skills
+- [ ] Master the four pillars of OOP
+- [ ] Improve SQL and database skills
+- [ ] Build practical Python applications
+- [ ] Develop AI/ML-based projects
+- [ ] Improve problem-solving abilities
+- [ ] Contribute to GitHub projects
+- [ ] Prepare for entry-level developer opportunities
+
+---
+
+## 🌐 Connect With Me
+
 <div align="center">
-✨ Building with Python. Exploring AI. Automating the boring stuff.
+
+<a href="https://github.com/lokiknok">
+<img src="https://img.shields.io/badge/GitHub-lokiknok-181717?style=for-the-badge&logo=github"/>
+</a>
+
+<a href="https://lokiknok.onrender.com/">
+<img src="https://img.shields.io/badge/Portfolio-Visit-2196F3?style=for-the-badge&logo=googlechrome"/>
+</a>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+### ✨ Code. Learn. Build. Repeat.
+
+*Building my future one project and one line of code at a time.*
+
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:6ea8ff,50:8fd8ff,100:effaff&section=footer&animation=twinkling" width="100%"/>
-</div> 
+
+</div>
