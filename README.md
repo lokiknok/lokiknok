@@ -110,31 +110,174 @@ Key areas:
 ## 📚 Currently Learning
 
 ```text
-MY LEARNING JOURNEY
+
+## 📚 My Technical Learning Journey
+
+```text
+🚀 TECHNOLOGY & DEVELOPMENT ROADMAP
 │
-├── 🐍 Python
-│   ├── Core Python
-│   ├── Functions & Data Structures
-│   └── Object-Oriented Programming
-│       ├── Encapsulation
-│       ├── Inheritance
-│       ├── Polymorphism
-│       └── Abstraction
+├── 🐍 PYTHON DEVELOPMENT
+│   │
+│   ├── Python Fundamentals
+│   │   ├── Variables, Data Types & Type Conversion
+│   │   ├── Operators & Control Flow
+│   │   ├── Loops, Iterators & Comprehensions
+│   │   ├── Functions, Lambda & Recursion
+│   │   ├── Lists, Tuples, Sets & Dictionaries
+│   │   ├── String Manipulation & Formatting
+│   │   ├── Exception Handling
+│   │   └── File Handling & Modules
+│   │
+│   ├── Object-Oriented Programming (OOP)
+│   │   ├── Classes & Objects
+│   │   ├── Constructors & Destructors
+│   │   ├── Encapsulation
+│   │   ├── Inheritance
+│   │   ├── Polymorphism
+│   │   ├── Abstraction
+│   │   ├── Method Overloading & Overriding
+│   │   └── Composition & Association
+│   │
+│   ├── Advanced Python Concepts
+│   │   ├── Decorators & Generators
+│   │   ├── Iterators & Context Managers
+│   │   ├── Regular Expressions
+│   │   ├── Virtual Environments & Package Management
+│   │   ├── Working with JSON & APIs
+│   │   └── Debugging & Code Optimization
+│   │
+│   └── Software Development Practices
+│       ├── Modular Programming
+│       ├── Clean Code Principles
+│       ├── Code Reusability
+│       └── Unit Testing
 │
-├── 🗄️ SQL
-│   ├── SELECT & WHERE
-│   ├── GROUP BY & ORDER BY
-│   ├── Joins
-│   └── Aggregate Functions
+├── 🗄️ SQL & DATABASE MANAGEMENT
+│   │
+│   ├── SQL Fundamentals
+│   │   ├── DDL, DML, DQL & DCL
+│   │   ├── SELECT, WHERE & DISTINCT
+│   │   ├── ORDER BY & LIMIT
+│   │   ├── Logical & Comparison Operators
+│   │   └── SQL Constraints
+│   │
+│   ├── Data Manipulation & Querying
+│   │   ├── INSERT, UPDATE & DELETE
+│   │   ├── Aggregate Functions
+│   │   ├── GROUP BY & HAVING
+│   │   ├── String, Numeric & Date Functions
+│   │   ├── Joins (INNER, LEFT, RIGHT & CROSS)
+│   │   ├── Subqueries & Nested Queries
+│   │   ├── Common Table Expressions (CTEs)
+│   │   └── CASE Expressions
+│   │
+│   ├── Advanced Database Concepts
+│   │   ├── Primary & Foreign Keys
+│   │   ├── Database Normalization
+│   │   ├── Relationships & Referential Integrity
+│   │   ├── Views & Indexes
+│   │   ├── Stored Procedures
+│   │   ├── Transactions & ACID Properties
+│   │   └── Query Optimization
+│   │
+│   └── Database Development
+│       ├── Relational Database Design
+│       ├── Schema Design
+│       ├── Data Integrity
+│       └── SQL-Based Data Analysis
 │
-├── 🤖 Artificial Intelligence
-│   ├── AI Fundamentals
-│   └── Machine Learning Concepts
+├── 🤖 ARTIFICIAL INTELLIGENCE & MACHINE LEARNING
+│   │
+│   ├── Artificial Intelligence Fundamentals
+│   │   ├── AI Concepts & Applications
+│   │   ├── Intelligent Systems
+│   │   ├── Search Algorithms
+│   │   └── Problem-Solving Techniques
+│   │
+│   ├── Machine Learning
+│   │   ├── Supervised Learning
+│   │   ├── Unsupervised Learning
+│   │   ├── Classification & Regression
+│   │   ├── Clustering Algorithms
+│   │   ├── Model Training & Evaluation
+│   │   └── Feature Engineering
+│   │
+│   ├── Data Science Foundations
+│   │   ├── Data Collection & Preprocessing
+│   │   ├── Data Cleaning & Transformation
+│   │   ├── Exploratory Data Analysis (EDA)
+│   │   ├── Statistical Analysis
+│   │   └── Data Visualization
+│   │
+│   └── AI Application Development
+│       ├── Natural Language Processing (NLP)
+│       ├── Large Language Models (LLMs)
+│       ├── Prompt Engineering
+│       ├── AI API Integration
+│       └── AI-Powered Applications
 │
-└── ⚙️ Practical Development
-    ├── Web Development
-    ├── Automation
-    └── Real-World Projects
+├── ⚙️ WEB DEVELOPMENT & AUTOMATION
+│   │
+│   ├── Frontend Development
+│   │   ├── HTML5 & Semantic HTML
+│   │   ├── CSS3 & Responsive Design
+│   │   ├── JavaScript Fundamentals
+│   │   ├── DOM Manipulation
+│   │   └── Browser-Based Applications
+│   │
+│   ├── Backend Development
+│   │   ├── Python Backend Development
+│   │   ├── Flask Framework
+│   │   ├── RESTful API Development
+│   │   ├── HTTP Methods & Status Codes
+│   │   ├── Request & Response Handling
+│   │   └── Database Integration
+│   │
+│   ├── Web Automation & Data Extraction
+│   │   ├── Web Scraping
+│   │   ├── HTML Parsing
+│   │   ├── HTTP Requests
+│   │   ├── Browser Automation
+│   │   └── Automated Data Processing
+│   │
+│   └── Application Development
+│       ├── Full-Stack Application Concepts
+│       ├── Authentication & Authorization
+│       ├── Application Deployment
+│       ├── Environment Configuration
+│       └── Application Debugging
+│
+└── 🛠️ DEVELOPER TOOLS & ENGINEERING
+    │
+    ├── Version Control
+    │   ├── Git Fundamentals
+    │   ├── GitHub Repository Management
+    │   ├── Branching & Merging
+    │   ├── Commits & Pull Requests
+    │   └── Collaboration Workflows
+    │
+    ├── Development Environment
+    │   ├── VS Code
+    │   ├── Command Line & Terminal
+    │   ├── Windows & Linux Fundamentals
+    │   ├── Package Management
+    │   └── Environment Variables
+    │
+    ├── Software Engineering
+    │   ├── Problem-Solving & Algorithms
+    │   ├── Data Structures
+    │   ├── Debugging & Testing
+    │   ├── SDLC Fundamentals
+    │   └── Software Design Principles
+    │
+    └── Practical Implementation
+        ├── Real-World Project Development
+        ├── API Integration
+        ├── Database-Driven Applications
+        ├── AI-Based Solutions
+        └── Continuous Learning & Improvement
+```
+
 ```
 
 ---
