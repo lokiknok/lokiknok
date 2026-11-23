@@ -1,37 +1,37 @@
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:effaff,50:8fd8ff,100:6ea8ff&text=LOHITH%20V&fontSize=46&fontColor=0b1f33&fontAlignY=38&desc=BCA%20Student%20%7C%20Python%20%7C%20SQL%20%7C%20AI%2FML&descAlignY=60&descSize=17&animation=twinkling" width="100%"/>
 
-  <h3>🚀 Learning Today. Building Tomorrow.</h3>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:7B2FF7,25:F107A3,50:00C9FF,75:00F5A0,100:FFD166&text=LOHITH%20V&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=BCA%20Student%20%7C%20Python%20%7C%20SQL%20%7C%20AI%2FML&descAlignY=60&descSize=17&animation=twinkling" width="100%"/>
 
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=19&pause=1200&color=2196F3&center=true&vCenter=true&width=750&height=55&lines=Python+Developer+in+Progress;SQL+%7C+Database+Management;Object-Oriented+Programming;Exploring+Artificial+Intelligence+%26+ML;Building+Practical+Software+Projects" />
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=20&pause=1200&color=00C9FF&center=true&vCenter=true&width=800&height=60&lines=Python+Developer+in+Progress;SQL+%7C+Database+Management;Object-Oriented+Programming;Exploring+Artificial+Intelligence+%26+ML;Building+Practical+Software+Projects" />
 
-  <br/>
+<br/>
 
-  <a href="https://lokiknok.onrender.com/">
-    <img src="https://img.shields.io/badge/🌐%20Portfolio-Visit%20Website-2196F3?style=for-the-badge"/>
-  </a>
-  <a href="https://github.com/lokiknok">
-    <img src="https://img.shields.io/badge/GitHub-Follow-111827?style=for-the-badge&logo=github"/>
-  </a>
+<a href="https://lokiknok.onrender.com/">
+<img src="https://img.shields.io/badge/🌐_PORTFOLIO-Visit_Website-7B2FF7?style=for-the-badge"/>
+</a>
+<a href="https://github.com/lokiknok">
+<img src="https://img.shields.io/badge/GITHUB-Follow-181717?style=for-the-badge&logo=github"/>
+</a>
+
 </div>
 
 ---
 
 ## 👋 About Me
 
-Hi, I'm **Lohith V**, a BCA student passionate about programming, technology, and building practical applications.
+Hi, I'm **Lohith V**, a BCA student passionate about programming, software development, and emerging technologies.
 
-I'm continuously improving my technical skills through hands-on projects, coding challenges, and practical problem-solving.
+I enjoy exploring new technologies, solving programming challenges, and developing practical applications.
 
-- 🐍 Learning and building with Python
-- 🗄️ Practising SQL and database management
-- 🧩 Exploring Object-Oriented Programming (OOP)
-- 🤖 Exploring Artificial Intelligence and Machine Learning
-- ⚙️ Interested in automation and real-world applications
-- 🌱 Focused on continuous learning and development
+- 🐍 Python Programming
+- 🗄️ SQL & Database Management
+- 🧩 Object-Oriented Programming
+- 🤖 Artificial Intelligence & Machine Learning
+- ⚙️ Automation & Web Development
+- 🚀 Building practical software projects
 
-> My goal is to turn programming knowledge into useful, real-world solutions.
+> Learning continuously, experimenting with technology, and turning ideas into reality.
 
 ---
 
@@ -39,77 +39,17 @@ I'm continuously improving my technical skills through hands-on projects, coding
 
 <div align="center">
 
-### Programming & Database
+### Programming Languages
 
-<img src="https://skillicons.dev/icons?i=python,mysql,html,css,js&perline=6"/>
+<img src="https://skillicons.dev/icons?i=python,html,css,js,mysql&perline=5"/>
 
-### Tools & Technologies
+### Frameworks & Developer Tools
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,flask&perline=6"/>
-
-</div>
-
-### Areas of Learning
-
-| Area | Focus |
-|---|---|
-| Python | Programming fundamentals and problem-solving |
-| OOP | Encapsulation, Inheritance, Polymorphism, Abstraction |
-| SQL | Queries, filtering, joins and data manipulation |
-| Database | Relational database concepts |
-| AI / ML | Exploring machine learning and AI applications |
-| Automation | Practical automation workflows |
-| Web Development | HTML, CSS, JavaScript and Flask |
-
----
-
-## 🏆 Certifications
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/HackerRank-SQL%20(Basic)-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"/>
-
-### SQL (Basic) – HackerRank
-
-Successfully passed the HackerRank SQL Basic Skill Certification Test.
-
-📅 Earned: 23 November 2026
+<img src="https://skillicons.dev/icons?i=flask,git,github,vscode,linux&perline=5"/>
 
 </div>
 
 ---
-
-## 🚀 Featured Projects
-
-### 🌐 Personal Portfolio Website
-
-A personal portfolio website showcasing my profile, technical skills, projects, and learning journey.
-
-- Responsive web design
-- Personal profile and project showcase
-- Online portfolio deployment
-
-**Live:** https://lokiknok.onrender.com/
-
-**Repository:** https://github.com/lokiknok/lokiknok
-
-### 🤖 AI Web Research Assistant
-
-An AI-powered web research application focused on combining web technologies, information extraction, and AI workflows.
-
-Key areas:
-- Webpage information extraction
-- Content processing and summarization
-- Conversational interaction
-- Web automation
-
-**Technologies:** Python · AI · Web Scraping · Automation · NLP
-
----
-
-## 📚 Currently Learning
-
-```text
 
 ## 📚 My Technical Learning Journey
 
@@ -117,82 +57,66 @@ Key areas:
 🚀 TECHNOLOGY & DEVELOPMENT ROADMAP
 │
 ├── 🐍 PYTHON DEVELOPMENT
-│   │
 │   ├── Python Fundamentals
 │   │   ├── Variables, Data Types & Type Conversion
 │   │   ├── Operators & Control Flow
 │   │   ├── Loops, Iterators & Comprehensions
 │   │   ├── Functions, Lambda & Recursion
 │   │   ├── Lists, Tuples, Sets & Dictionaries
-│   │   ├── String Manipulation & Formatting
+│   │   ├── String Manipulation
 │   │   ├── Exception Handling
 │   │   └── File Handling & Modules
 │   │
-│   ├── Object-Oriented Programming (OOP)
+│   ├── Object-Oriented Programming
 │   │   ├── Classes & Objects
 │   │   ├── Constructors & Destructors
 │   │   ├── Encapsulation
 │   │   ├── Inheritance
 │   │   ├── Polymorphism
 │   │   ├── Abstraction
-│   │   ├── Method Overloading & Overriding
+│   │   ├── Method Overriding
 │   │   └── Composition & Association
 │   │
-│   ├── Advanced Python Concepts
-│   │   ├── Decorators & Generators
-│   │   ├── Iterators & Context Managers
-│   │   ├── Regular Expressions
-│   │   ├── Virtual Environments & Package Management
-│   │   ├── Working with JSON & APIs
-│   │   └── Debugging & Code Optimization
-│   │
-│   └── Software Development Practices
-│       ├── Modular Programming
-│       ├── Clean Code Principles
-│       ├── Code Reusability
-│       └── Unit Testing
+│   └── Advanced Python Concepts
+│       ├── Decorators & Generators
+│       ├── Iterators & Context Managers
+│       ├── Regular Expressions
+│       ├── JSON & API Integration
+│       ├── Virtual Environments
+│       └── Debugging & Testing
 │
 ├── 🗄️ SQL & DATABASE MANAGEMENT
-│   │
 │   ├── SQL Fundamentals
 │   │   ├── DDL, DML, DQL & DCL
 │   │   ├── SELECT, WHERE & DISTINCT
 │   │   ├── ORDER BY & LIMIT
-│   │   ├── Logical & Comparison Operators
-│   │   └── SQL Constraints
+│   │   ├── Constraints & Data Types
+│   │   └── Logical & Comparison Operators
 │   │
 │   ├── Data Manipulation & Querying
 │   │   ├── INSERT, UPDATE & DELETE
 │   │   ├── Aggregate Functions
 │   │   ├── GROUP BY & HAVING
-│   │   ├── String, Numeric & Date Functions
-│   │   ├── Joins (INNER, LEFT, RIGHT & CROSS)
+│   │   ├── String & Date Functions
+│   │   ├── INNER, LEFT, RIGHT & CROSS JOIN
 │   │   ├── Subqueries & Nested Queries
-│   │   ├── Common Table Expressions (CTEs)
+│   │   ├── CTEs
 │   │   └── CASE Expressions
 │   │
-│   ├── Advanced Database Concepts
-│   │   ├── Primary & Foreign Keys
-│   │   ├── Database Normalization
-│   │   ├── Relationships & Referential Integrity
-│   │   ├── Views & Indexes
-│   │   ├── Stored Procedures
-│   │   ├── Transactions & ACID Properties
-│   │   └── Query Optimization
-│   │
-│   └── Database Development
-│       ├── Relational Database Design
-│       ├── Schema Design
-│       ├── Data Integrity
-│       └── SQL-Based Data Analysis
+│   └── Advanced Database Concepts
+│       ├── Primary & Foreign Keys
+│       ├── Database Normalization
+│       ├── Referential Integrity
+│       ├── Views & Indexes
+│       ├── Stored Procedures
+│       ├── Transactions & ACID Properties
+│       └── Query Optimization
 │
 ├── 🤖 ARTIFICIAL INTELLIGENCE & MACHINE LEARNING
-│   │
-│   ├── Artificial Intelligence Fundamentals
-│   │   ├── AI Concepts & Applications
+│   ├── AI Fundamentals
 │   │   ├── Intelligent Systems
-│   │   ├── Search Algorithms
-│   │   └── Problem-Solving Techniques
+│   │   ├── AI Applications
+│   │   └── Search Algorithms
 │   │
 │   ├── Machine Learning
 │   │   ├── Supervised Learning
@@ -205,80 +129,103 @@ Key areas:
 │   ├── Data Science Foundations
 │   │   ├── Data Collection & Preprocessing
 │   │   ├── Data Cleaning & Transformation
-│   │   ├── Exploratory Data Analysis (EDA)
+│   │   ├── Exploratory Data Analysis
 │   │   ├── Statistical Analysis
 │   │   └── Data Visualization
 │   │
 │   └── AI Application Development
-│       ├── Natural Language Processing (NLP)
+│       ├── Natural Language Processing
 │       ├── Large Language Models (LLMs)
 │       ├── Prompt Engineering
 │       ├── AI API Integration
 │       └── AI-Powered Applications
 │
 ├── ⚙️ WEB DEVELOPMENT & AUTOMATION
-│   │
 │   ├── Frontend Development
 │   │   ├── HTML5 & Semantic HTML
 │   │   ├── CSS3 & Responsive Design
 │   │   ├── JavaScript Fundamentals
-│   │   ├── DOM Manipulation
-│   │   └── Browser-Based Applications
+│   │   └── DOM Manipulation
 │   │
 │   ├── Backend Development
 │   │   ├── Python Backend Development
 │   │   ├── Flask Framework
 │   │   ├── RESTful API Development
 │   │   ├── HTTP Methods & Status Codes
-│   │   ├── Request & Response Handling
 │   │   └── Database Integration
 │   │
-│   ├── Web Automation & Data Extraction
-│   │   ├── Web Scraping
-│   │   ├── HTML Parsing
-│   │   ├── HTTP Requests
-│   │   ├── Browser Automation
-│   │   └── Automated Data Processing
-│   │
-│   └── Application Development
-│       ├── Full-Stack Application Concepts
-│       ├── Authentication & Authorization
-│       ├── Application Deployment
-│       ├── Environment Configuration
-│       └── Application Debugging
+│   └── Automation & Web Scraping
+│       ├── HTTP Requests
+│       ├── HTML Parsing
+│       ├── Web Scraping
+│       ├── Browser Automation
+│       └── Automated Data Processing
 │
-└── 🛠️ DEVELOPER TOOLS & ENGINEERING
-    │
+└── 🛠️ SOFTWARE ENGINEERING & DEVELOPER TOOLS
     ├── Version Control
-    │   ├── Git Fundamentals
-    │   ├── GitHub Repository Management
+    │   ├── Git & GitHub
     │   ├── Branching & Merging
     │   ├── Commits & Pull Requests
-    │   └── Collaboration Workflows
+    │   └── Repository Management
     │
     ├── Development Environment
     │   ├── VS Code
     │   ├── Command Line & Terminal
-    │   ├── Windows & Linux Fundamentals
-    │   ├── Package Management
-    │   └── Environment Variables
+    │   ├── Linux Fundamentals
+    │   └── Package Management
     │
-    ├── Software Engineering
-    │   ├── Problem-Solving & Algorithms
-    │   ├── Data Structures
-    │   ├── Debugging & Testing
-    │   ├── SDLC Fundamentals
-    │   └── Software Design Principles
-    │
-    └── Practical Implementation
-        ├── Real-World Project Development
-        ├── API Integration
-        ├── Database-Driven Applications
-        ├── AI-Based Solutions
-        └── Continuous Learning & Improvement
+    └── Engineering Practices
+        ├── Data Structures & Algorithms
+        ├── Problem Solving
+        ├── Clean Code Principles
+        ├── Software Testing
+        ├── Debugging
+        └── Application Deployment
 ```
 
+---
 
+## 🏆 Certifications
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/HackerRank-SQL%20(Basic)-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"/>
+
+### SQL (Basic) Certification
+
+Successfully passed the HackerRank SQL Basic Skill Certification Test.
+
+**Earned:** 23 November 2026
+
+</div>
+
+---
+
+## 🚀 Featured Projects
+
+### 🌐 Personal Portfolio
+
+A responsive personal portfolio showcasing my profile, technical skills, projects, and development journey.
+
+- Modern web interface
+- Responsive design
+- Project showcase
+
+🔗 [Live Portfolio](https://lokiknok.onrender.com/)
+
+🔗 [GitHub Repository](https://github.com/lokiknok/lokiknok)
+
+### 🤖 AI Web Research Assistant
+
+An AI-powered web research application combining web technologies, information extraction, and AI workflows.
+
+**Key Features:**
+- Webpage information extraction
+- Content processing and summarization
+- Conversational interaction
+- Automated research workflows
+
+**Technologies:** Python · AI · Web Scraping · Automation · NLP
 
 ---
 
@@ -286,13 +233,13 @@ Key areas:
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=lokiknok&show_icons=true&hide_border=true&bg_color=00000000&title_color=2196F3&icon_color=2196F3&text_color=64748B"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=lokiknok&show_icons=true&hide_border=true&bg_color=00000000&title_color=7B2FF7&icon_color=00C9FF&text_color=64748B"/>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lokiknok&layout=compact&hide_border=true&bg_color=00000000&title_color=2196F3&text_color=64748B"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lokiknok&layout=compact&hide_border=true&bg_color=00000000&title_color=F107A3&text_color=64748B"/>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=lokiknok&theme=transparent&hide_border=true&ring=2196F3&fire=2196F3&currStreakLabel=2196F3"/>
+<img src="https://streak-stats.demolab.com?user=lokiknok&theme=transparent&hide_border=true&ring=7B2FF7&fire=F107A3&currStreakLabel=00C9FF"/>
 
 </div>
 
@@ -301,12 +248,12 @@ Key areas:
 ## 🎯 My 2026 Goals
 
 - [ ] Strengthen Python programming skills
-- [ ] Master the four pillars of OOP
-- [ ] Improve SQL and database skills
-- [ ] Build practical Python applications
+- [ ] Master Object-Oriented Programming
+- [ ] Improve SQL and database concepts
+- [ ] Build advanced Python applications
 - [ ] Develop AI/ML-based projects
-- [ ] Improve problem-solving abilities
-- [ ] Contribute to GitHub projects
+- [ ] Improve Data Structures & Algorithms
+- [ ] Contribute to open-source projects
 - [ ] Prepare for entry-level developer opportunities
 
 ---
@@ -320,7 +267,7 @@ Key areas:
 </a>
 
 <a href="https://lokiknok.onrender.com/">
-<img src="https://img.shields.io/badge/Portfolio-Visit-2196F3?style=for-the-badge&logo=googlechrome"/>
+<img src="https://img.shields.io/badge/Portfolio-Visit-7B2FF7?style=for-the-badge&logo=googlechrome"/>
 </a>
 
 </div>
@@ -333,6 +280,6 @@ Key areas:
 
 *Building my future one project and one line of code at a time.*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:6ea8ff,50:8fd8ff,100:effaff&section=footer&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=130&color=0:7B2FF7,25:F107A3,50:00C9FF,75:00F5A0,100:FFD166&section=footer&animation=twinkling" width="100%"/>
 
 </div>
