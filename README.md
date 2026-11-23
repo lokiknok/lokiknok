@@ -1,63 +1,101 @@
+
 <div align="center">
-
-<!-- Header Wave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:effaff,50:8fd8ff,100:6ea8ff&text=LOHITH%20V&fontSize=46&fontColor=0b1f33&fontAlignY=38&desc=Python%20%7C%20AI%2FML%20%7C%20Automation%20Developer&descAlignY=60&descSize=18&animation=twinkling" width="100%" />
-
-<!-- Dynamic Typing Banner -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=21&pause=1400&color=2196F3&center=true&vCenter=true&width=760&height=55&lines=Python+%26+AI%2FML+Developer;Building+Practical+AI+Applications;Web+Automation+%7C+NLP+%7C+Backend+Tools;Open+to+Entry-Level+Software+%26+AI+Roles" alt="Typing SVG" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:effaff,50:8fd8ff,100:6ea8ff&text=LOHITH%20V&fontSize=46&fontColor=0b1f33&fontAlignY=38&desc=Python%20%7C%20AI%2FML%20%7C%20Automation&descAlignY=60&descSize=18&animation=twinkling" width="100%"/>
+<a href="https://readme-typing-svg.demolab.com/">
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=21&pause=1400&color=2196F3&center=true&vCenter=true&width=760&height=55&lines=Python+%26+AI%2FML+Developer;Building+Practical+AI+Applications;Automation+%7C+Web+Tools+%7C+Machine+Learning;Open+to+Entry-Level+Opportunities" alt="Animated typing introduction"/>
 </a>
-
-<br />
-
-<!-- Primary Action Badges -->
+<br/>
 <a href="https://lokiknok.onrender.com/">
-  <img src="https://img.shields.io/badge/✨_Live_Portfolio-Visit_Site-2196F3?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
+<img src="https://img.shields.io/badge/%E2%9C%A8%20LIVE%20PORTFOLIO-Visit%20Website-2196F3?style=for-the-badge&logo=googlechrome&logoColor=white"/>
 </a>
 <a href="https://github.com/lokiknok">
-  <img src="https://img.shields.io/badge/GitHub-lokiknok-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+<img src="https://img.shields.io/badge/GitHub-lokiknok-111827?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
-<!-- Replace YOUR_LINKEDIN and YOUR_EMAIL below -->
-<a href="https://linkedin.com/in/YOUR_LINKEDIN">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-<a href="mailto:YOUR_EMAIL@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-</a>
-
-<br /><br />
-
-![Profile Views](https://komarev.com/ghpvc/?username=lokiknok&label=Profile%20Views&color=2196F3&style=flat-square)
-![Open to Work](https://img.shields.io/badge/Status-Open%20to%20Work-10B981?style=flat-square)
-
 </div>
-
 ---
-
-## 👋 About Me
-
-I'm **Lohith V**, a **BCA graduate** specializing in **Python, Artificial Intelligence, Machine Learning, and workflow automation**. I focus on bridging the gap between raw AI capabilities and everyday usability—building tools that scrape, process, reason over, and automate real-world data.
-
+👋 About Me
+I'm Lohith V, a BCA graduate focused on Python, Artificial Intelligence, Machine Learning, and automation.
+I enjoy turning ideas into practical software, especially tools that combine Python, AI, web technologies, and automation.
+```text
+Focus
+├── Python
+├── Artificial Intelligence
+├── Machine Learning
+├── Automation
+├── Web Development
+└── Practical Problem Solving
+```
+> Building useful things, learning continuously, and trying not to let configuration files win.
+---
+🚀 Featured Portfolio
+🌐 Personal Portfolio
+A modern, responsive portfolio built to showcase my skills, projects, profile, and career journey.
+Live: https://lokiknok.onrender.com/
+Repository: https://github.com/lokiknok/lokiknok
+🤖 AI Web Research Assistant
+An AI-powered web research application designed to:
+Extract information from webpages
+Process and summarize content
+Support conversational interaction with researched information
+Combine web automation with AI workflows
+Focus: Python · AI · Web Scraping · Automation · NLP
+---
+🧠 Tech Stack
+<div align="center">
+<img src="https://skillicons.dev/icons?i=python,html,css,js,flask,git,github,vscode&perline=8" />
+<br/><br/>
+<img src="https://img.shields.io/badge/Python-Expertise%20Focus-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/AI%20%2F%20ML-Learning%20%26%20Building-6C63FF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Automation-Building-00A8E8?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Web%20Development-Working%20Knowledge-0EA5E9?style=for-the-badge"/>
+</div>
+---
+⚡ What I Build
 <table>
 <tr>
-<td width="58%" valign="top">
-
-### 🎯 Core Focus Areas
-- 🐍 **Python Engineering:** Clean backend logic, REST APIs, and data pipelines.
-- 🧠 **Applied AI & NLP:** LLM-powered assistants, text summarization, and ML experiments.
-- ⚙️ **Intelligent Automation:** Web scraping, browser automation, and repetitive-task elimination.
-- 🌐 **Full-Stack Web Tools:** Lightweight, responsive web interfaces built with Flask and modern JS.
-
+<td width="33%" align="center">
+🐍 Python
+Practical applications, APIs, automation, data processing, and backend logic.
 </td>
-<td width="42%" valign="top">
-
-```yaml
-developer:
-  name: "Lohith V"
-  education: "BCA Graduate"
-  role: "Python & AI/ML Developer"
-  location: "India"
-  currently:
-    - "Building AI-driven web tools"
-    - "Mastering automation pipelines"
-  seeking: "Entry-Level SWE / AI Roles"
+<td width="33%" align="center">
+🧠 AI / ML
+Machine learning experiments and AI-powered applications focused on useful real-world workflows.
+</td>
+<td width="33%" align="center">
+⚙️ Automation
+Web automation, scraping, repetitive-task automation, and intelligent workflows.
+</td>
+</tr>
+</table>
+---
+📊 GitHub Activity
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=lokiknok&show_icons=true&hide_border=true&bg_color=00000000&title_color=2196F3&icon_color=2196F3&text_color=64748B" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lokiknok&layout=compact&hide_border=true&bg_color=00000000&title_color=2196F3&text_color=64748B" height="165"/>
+</div>
+---
+🧩 Current Direction
+```text
+2026
+│
+├── 🐍 Deepening Python
+├── 🧠 Building AI/ML projects
+├── ⚙️ Learning automation workflows
+├── 🌐 Building practical web applications
+└── 🎯 Looking for an entry-level opportunity
+```
+---
+🌐 Connect With Me
+<div align="center">
+<a href="https://lokiknok.onrender.com/">
+<img src="https://img.shields.io/badge/Portfolio-2196F3?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+</a>
+<a href="https://github.com/lokiknok">
+<img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+</div>
+<br/>
+<div align="center">
+✨ Building with Python. Exploring AI. Automating the boring stuff.
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:6ea8ff,50:8fd8ff,100:effaff&section=footer&animation=twinkling" width="100%"/>
+</div> 
