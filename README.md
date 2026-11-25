@@ -1,285 +1,89 @@
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:7B2FF7,25:F107A3,50:00C9FF,75:00F5A0,100:FFD166&text=LOHITH%20V&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=BCA%20Student%20%7C%20Python%20%7C%20SQL%20%7C%20AI%2FML&descAlignY=60&descSize=17&animation=twinkling" width="100%"/>
+<img alt="Lohith V — BCA Graduate · Python · AI/ML · Automation" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:7B2FF7,50:00C9FF,100:00F5A0&text=LOHITH%20V&fontSize=50&fontColor=ffffff&fontAlignY=36&desc=Python%20%C2%B7%20AI%2FML%20%C2%B7%20Automation%20%C2%B7%20SQL&descAlignY=58&descSize=17" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=20&pause=1200&color=00C9FF&center=true&vCenter=true&width=800&height=60&lines=Python+Developer+in+Progress;SQL+%7C+Database+Management;Object-Oriented+Programming;Exploring+Artificial+Intelligence+%26+ML;Building+Practical+Software+Projects" />
+<img alt="Python developer · AI/ML · Automation" src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=20&pause=1200&color=00C9FF&center=true&vCenter=true&width=700&height=50&lines=Python+%26+AI%2FML+Developer;Browser+Automation+with+Playwright+%26+Selenium;RAG+%26+LLM-powered+Applications;Open+to+entry-level+developer+roles" />
 
-<br/>
-
-<a href="https://lokiknok.onrender.com/">
-<img src="https://img.shields.io/badge/🌐_PORTFOLIO-Visit_Website-7B2FF7?style=for-the-badge"/>
-</a>
-<a href="https://github.com/lokiknok">
-<img src="https://img.shields.io/badge/GITHUB-Follow-181717?style=for-the-badge&logo=github"/>
-</a>
+<a href="https://lokiknok.onrender.com/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-lokiknok.onrender.com-7B2FF7?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
+<a href="https://linkedin.com/in/lohith-v-984176296"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Lohith_V-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:lohithv0126@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-Contact_me-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
 </div>
-
----
 
 ## 👋 About Me
 
-Hi, I'm **Lohith V**, a BCA student passionate about programming, software development, and emerging technologies.
+I'm **Lohith V**, a **BCA graduate** (Chikkanna Govt. Arts College, Bharathiar University — 2026) from Tiruppur, Tamil Nadu. I build practical Python applications: **browser automation tools, AI-powered research and document assistants, and data workflows**.
 
-I enjoy exploring new technologies, solving programming challenges, and developing practical applications.
+- 🔭 Currently building **RAG / LLM** applications and improving my **DSA** skills
+- 🤖 Interested in **AI/ML, automation, and backend development**
+- 💼 **Open to entry-level Python / AI developer roles and internships**
+- 📍 Tiruppur, Tamil Nadu, India
 
-- 🐍 Python Programming
-- 🗄️ SQL & Database Management
-- 🧩 Object-Oriented Programming
-- 🤖 Artificial Intelligence & Machine Learning
-- ⚙️ Automation & Web Development
-- 🚀 Building practical software projects
-
-> Learning continuously, experimenting with technology, and turning ideas into reality.
-
----
-
-## 🧠 Technical Skills
+## 🛠️ Tech Stack
 
 <div align="center">
 
-### Programming Languages
+<img alt="Python, JavaScript, HTML, CSS, MySQL, Flask" src="https://skillicons.dev/icons?i=python,js,html,css,mysql,flask&perline=6"/>
+<br/>
+<img alt="scikit-learn, Git, GitHub, VS Code, Linux" src="https://skillicons.dev/icons?i=sklearn,git,github,vscode,linux&perline=6"/>
 
-<img src="https://skillicons.dev/icons?i=python,html,css,js,mysql&perline=5"/>
-
-### Frameworks & Developer Tools
-
-<img src="https://skillicons.dev/icons?i=flask,git,github,vscode,linux&perline=5"/>
-
-</div>
-
----
-
-## 📚 My Technical Learning Journey
-
-```text
-🚀 TECHNOLOGY & DEVELOPMENT ROADMAP
-│
-├── 🐍 PYTHON DEVELOPMENT
-│   ├── Python Fundamentals
-│   │   ├── Variables, Data Types & Type Conversion
-│   │   ├── Operators & Control Flow
-│   │   ├── Loops, Iterators & Comprehensions
-│   │   ├── Functions, Lambda & Recursion
-│   │   ├── Lists, Tuples, Sets & Dictionaries
-│   │   ├── String Manipulation
-│   │   ├── Exception Handling
-│   │   └── File Handling & Modules
-│   │
-│   ├── Object-Oriented Programming
-│   │   ├── Classes & Objects
-│   │   ├── Constructors & Destructors
-│   │   ├── Encapsulation
-│   │   ├── Inheritance
-│   │   ├── Polymorphism
-│   │   ├── Abstraction
-│   │   ├── Method Overriding
-│   │   └── Composition & Association
-│   │
-│   └── Advanced Python Concepts
-│       ├── Decorators & Generators
-│       ├── Iterators & Context Managers
-│       ├── Regular Expressions
-│       ├── JSON & API Integration
-│       ├── Virtual Environments
-│       └── Debugging & Testing
-│
-├── 🗄️ SQL & DATABASE MANAGEMENT
-│   ├── SQL Fundamentals
-│   │   ├── DDL, DML, DQL & DCL
-│   │   ├── SELECT, WHERE & DISTINCT
-│   │   ├── ORDER BY & LIMIT
-│   │   ├── Constraints & Data Types
-│   │   └── Logical & Comparison Operators
-│   │
-│   ├── Data Manipulation & Querying
-│   │   ├── INSERT, UPDATE & DELETE
-│   │   ├── Aggregate Functions
-│   │   ├── GROUP BY & HAVING
-│   │   ├── String & Date Functions
-│   │   ├── INNER, LEFT, RIGHT & CROSS JOIN
-│   │   ├── Subqueries & Nested Queries
-│   │   ├── CTEs
-│   │   └── CASE Expressions
-│   │
-│   └── Advanced Database Concepts
-│       ├── Primary & Foreign Keys
-│       ├── Database Normalization
-│       ├── Referential Integrity
-│       ├── Views & Indexes
-│       ├── Stored Procedures
-│       ├── Transactions & ACID Properties
-│       └── Query Optimization
-│
-├── 🤖 ARTIFICIAL INTELLIGENCE & MACHINE LEARNING
-│   ├── AI Fundamentals
-│   │   ├── Intelligent Systems
-│   │   ├── AI Applications
-│   │   └── Search Algorithms
-│   │
-│   ├── Machine Learning
-│   │   ├── Supervised Learning
-│   │   ├── Unsupervised Learning
-│   │   ├── Classification & Regression
-│   │   ├── Clustering Algorithms
-│   │   ├── Model Training & Evaluation
-│   │   └── Feature Engineering
-│   │
-│   ├── Data Science Foundations
-│   │   ├── Data Collection & Preprocessing
-│   │   ├── Data Cleaning & Transformation
-│   │   ├── Exploratory Data Analysis
-│   │   ├── Statistical Analysis
-│   │   └── Data Visualization
-│   │
-│   └── AI Application Development
-│       ├── Natural Language Processing
-│       ├── Large Language Models (LLMs)
-│       ├── Prompt Engineering
-│       ├── AI API Integration
-│       └── AI-Powered Applications
-│
-├── ⚙️ WEB DEVELOPMENT & AUTOMATION
-│   ├── Frontend Development
-│   │   ├── HTML5 & Semantic HTML
-│   │   ├── CSS3 & Responsive Design
-│   │   ├── JavaScript Fundamentals
-│   │   └── DOM Manipulation
-│   │
-│   ├── Backend Development
-│   │   ├── Python Backend Development
-│   │   ├── Flask Framework
-│   │   ├── RESTful API Development
-│   │   ├── HTTP Methods & Status Codes
-│   │   └── Database Integration
-│   │
-│   └── Automation & Web Scraping
-│       ├── HTTP Requests
-│       ├── HTML Parsing
-│       ├── Web Scraping
-│       ├── Browser Automation
-│       └── Automated Data Processing
-│
-└── 🛠️ SOFTWARE ENGINEERING & DEVELOPER TOOLS
-    ├── Version Control
-    │   ├── Git & GitHub
-    │   ├── Branching & Merging
-    │   ├── Commits & Pull Requests
-    │   └── Repository Management
-    │
-    ├── Development Environment
-    │   ├── VS Code
-    │   ├── Command Line & Terminal
-    │   ├── Linux Fundamentals
-    │   └── Package Management
-    │
-    └── Engineering Practices
-        ├── Data Structures & Algorithms
-        ├── Problem Solving
-        ├── Clean Code Principles
-        ├── Software Testing
-        ├── Debugging
-        └── Application Deployment
-```
-
----
-
-## 🏆 Certifications
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/HackerRank-SQL%20(Basic)-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"/>
-
-### SQL (Basic) Certification
-
-Successfully passed the HackerRank SQL Basic Skill Certification Test.
-
-**Earned:** 23 November 2026
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST_APIs-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![LLMs & RAG](https://img.shields.io/badge/LLMs_%26_RAG-412991?style=flat-square&logo=openai&logoColor=white)
 
 </div>
-
----
 
 ## 🚀 Featured Projects
 
-### 🌐 Personal Portfolio
+| Project | What it does | Stack |
+|---|---|---|
+| 🤖 **[AI Web Research Assistant](https://github.com/lokiknok/ai-web-research-assistant)** | Crawls live web pages, cleans the content, summarizes it and lets you chat with the research | Python · Flask · Playwright · NLP |
+| 📄 **[AI Document Assistant](https://github.com/lokiknok/ai-document-assistant)** | Question answering over PDFs using chunking, vector embeddings and retrieval, with source citations | Python · LLM APIs · RAG · Embeddings |
+| 💼 **[Naukri Auto Job Apply](https://github.com/lokiknok/Naukri-automated-job-application-system)** | Searches and filters Naukri jobs, applies automatically, logs to CSV and sends Telegram alerts | Python · Selenium · Telegram Bot API |
+| 🔗 **[LinkedIn Auto Job Apply](https://github.com/lokiknok/linkedin-auto-apply)** | Automates multi-step Easy Apply forms with filters, rate limiting and application tracking | Python · Playwright · Selenium |
+| 🌐 **[Personal Portfolio](https://lokiknok.onrender.com/)** | Responsive portfolio site with projects, skills and resume ([source](https://github.com/lokiknok/lokiknok)) | React · Vite · Tailwind CSS |
 
-A responsive personal portfolio showcasing my profile, technical skills, projects, and development journey.
+## 🏆 Certifications
 
-- Modern web interface
-- Responsive design
-- Project showcase
+<a href="https://www.hackerrank.com/"><img alt="HackerRank SQL (Basic)" src="https://img.shields.io/badge/HackerRank-SQL_(Basic)_Certified-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"/></a> &nbsp; Earned November 2026
 
-🔗 [Live Portfolio](https://lokiknok.onrender.com/)
-
-🔗 [GitHub Repository](https://github.com/lokiknok/lokiknok)
-
-### 🤖 AI Web Research Assistant
-
-An AI-powered web research application combining web technologies, information extraction, and AI workflows.
-
-**Key Features:**
-- Webpage information extraction
-- Content processing and summarization
-- Conversational interaction
-- Automated research workflows
-
-**Technologies:** Python · AI · Web Scraping · Automation · NLP
-
----
-
-## 📊 GitHub Statistics
+## 📊 GitHub Stats
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=lokiknok&show_icons=true&hide_border=true&bg_color=00000000&title_color=7B2FF7&icon_color=00C9FF&text_color=64748B"/>
+<img height="160" alt="Lohith's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=lokiknok&show_icons=true&hide_border=true&bg_color=00000000&title_color=7B2FF7&icon_color=00C9FF&text_color=8B949E&cache_seconds=86400"/>
+<img height="160" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lokiknok&layout=compact&hide_border=true&bg_color=00000000&title_color=7B2FF7&text_color=8B949E&cache_seconds=86400"/>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lokiknok&layout=compact&hide_border=true&bg_color=00000000&title_color=F107A3&text_color=64748B"/>
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=lokiknok&theme=transparent&hide_border=true&ring=7B2FF7&fire=F107A3&currStreakLabel=00C9FF"/>
+<img alt="GitHub streak" src="https://streak-stats.demolab.com?user=lokiknok&theme=transparent&hide_border=true&ring=7B2FF7&fire=00C9FF&currStreakLabel=00C9FF"/>
 
 </div>
 
----
-
-## 🎯 My 2026 Goals
-
-- [ ] Strengthen Python programming skills
-- [ ] Master Object-Oriented Programming
-- [ ] Improve SQL and database concepts
-- [ ] Build advanced Python applications
-- [ ] Develop AI/ML-based projects
-- [ ] Improve Data Structures & Algorithms
-- [ ] Contribute to open-source projects
-- [ ] Prepare for entry-level developer opportunities
-
----
-
-## 🌐 Connect With Me
-
-<div align="center">
-
-<a href="https://github.com/lokiknok">
-<img src="https://img.shields.io/badge/GitHub-lokiknok-181717?style=for-the-badge&logo=github"/>
-</a>
-
-<a href="https://lokiknok.onrender.com/">
-<img src="https://img.shields.io/badge/Portfolio-Visit-7B2FF7?style=for-the-badge&logo=googlechrome"/>
-</a>
-
-</div>
+<details>
+<summary><b>📚 Learning roadmap (click to expand)</b></summary>
 
 <br/>
 
+| Area | Topics |
+|---|---|
+| 🐍 **Python** | Data types, control flow, functions, comprehensions, OOP (inheritance, polymorphism, abstraction), decorators, generators, context managers, regex, JSON & APIs, testing & debugging |
+| 🗄️ **SQL** | DDL/DML, joins, subqueries, CTEs, GROUP BY / HAVING, CASE, keys & normalization, views, indexes, stored procedures, transactions (ACID), query optimization |
+| 🤖 **AI / ML** | Supervised & unsupervised learning, regression, classification, clustering, model evaluation, feature engineering, EDA, NLP, LLMs, prompt engineering, RAG |
+| ⚙️ **Web & Automation** | HTML, CSS, JavaScript, DOM, Flask, REST APIs, HTTP, web scraping, browser automation |
+| 🛠️ **Engineering** | Git & GitHub, branching & PRs, Linux & terminal, DSA, clean code, testing, deployment |
+
+**2026 goals:** build advanced Python & AI/ML projects · strengthen DSA · contribute to open source · land an entry-level developer role
+
+</details>
+
 <div align="center">
 
-### ✨ Code. Learn. Build. Repeat.
+<br/>
 
-*Building my future one project and one line of code at a time.*
+**✨ Code. Learn. Build. Repeat.**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=130&color=0:7B2FF7,25:F107A3,50:00C9FF,75:00F5A0,100:FFD166&section=footer&animation=twinkling" width="100%"/>
+<img alt="" src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:7B2FF7,50:00C9FF,100:00F5A0&section=footer" width="100%"/>
 
 </div>
