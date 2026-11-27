@@ -19,7 +19,7 @@ export const personalInfo = {
     linkedin: "https://linkedin.com/in/lohith-v-984176296",
     github: "https://github.com/lokiknok",
     // Link to uploaded resume PDF in public/assets
-    resumeUrl: "./assets/Lohith_v resume.pdf",
+    resumeUrl: "./assets/Lohith_V_Resume.pdf",
   },
 
   // About section highlights (strictly truthful, no fake statistics)

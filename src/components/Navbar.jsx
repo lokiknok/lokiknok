@@ -17,30 +17,40 @@ export default function Navbar() {
     { name: 'CONTACT', href: '#contact' },
   ];
 
+  // Header background: a cheap passive scroll listener (React skips
+  // re-rendering when the boolean doesn't change).
   useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20);
-
-      // Section scroll spy
-      const sections = ['home', 'about', 'skills', 'services', 'projects', 'process', 'contact'];
-      const scrollPosition = window.scrollY + 120;
-
-      for (const section of sections) {
-        const el = document.getElementById(section);
-        if (el) {
-          const top = el.offsetTop;
-          const height = el.offsetHeight;
-          if (scrollPosition >= top && scrollPosition < top + height) {
-            setActiveSection(section);
-            break;
-          }
-        }
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
+    const handleScroll = () => setIsScrolled(window.scrollY > 20);
+    handleScroll();
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  // Scroll spy: IntersectionObserver instead of measuring every section on
+  // every scroll event.
+  useEffect(() => {
+    const sections = navLinks
+      .map((link) => document.getElementById(link.href.slice(1)))
+      .filter(Boolean);
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) setActiveSection(entry.target.id);
+        });
+      },
+      { rootMargin: '-45% 0px -50% 0px' }
+    );
+    sections.forEach((section) => observer.observe(section));
+    return () => observer.disconnect();
+  }, []);
+
+  // Close the mobile menu with Escape.
+  useEffect(() => {
+    if (!mobileMenuOpen) return;
+    const onKey = (e) => e.key === 'Escape' && setMobileMenuOpen(false);
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [mobileMenuOpen]);
 
   return (
     <header 
@@ -59,7 +69,9 @@ export default function Navbar() {
           <div className="relative w-9 h-9 rounded-xl overflow-hidden p-[1.5px] bg-gradient-to-tr from-cyan-500 via-sky-500 to-purple-600 shadow-md shadow-cyan-500/30 group-hover:shadow-cyan-400/50 transition-all">
             <img
               src="./assets/avatar.jpg"
-              alt="Lohith V"
+              alt=""
+              width="36"
+              height="36"
               className="w-full h-full object-cover object-center rounded-[10px]"
             />
           </div>
@@ -75,13 +87,14 @@ export default function Navbar() {
         </a>
 
         {/* Desktop Navigation Links */}
-        <nav className="hidden lg:flex items-center gap-1 bg-slate-900/60 backdrop-blur-md px-4 py-1.5 rounded-full border border-white/10 shadow-glass-dark">
+        <nav aria-label="Main" className="hidden lg:flex items-center gap-1 bg-slate-900/60 backdrop-blur-md px-4 py-1.5 rounded-full border border-white/10 shadow-glass-dark">
           {navLinks.map((link) => {
             const isActive = activeSection === link.name.toLowerCase();
             return (
               <a
                 key={link.name}
                 href={link.href}
+                aria-current={isActive ? 'location' : undefined}
                 className={`relative px-3.5 py-1.5 text-xs font-mono font-medium transition-all duration-200 rounded-full ${
                   isActive 
                     ? 'text-cyan-400 bg-cyan-500/10 shadow-xs shadow-cyan-500/20 font-semibold' 
@@ -101,7 +114,7 @@ export default function Navbar() {
         <div className="hidden sm:flex items-center gap-2.5">
           <a
             href={personalInfo.contact.resumeUrl}
-            download="Lohith_v resume.pdf"
+            download="Lohith_V_Resume.pdf"
             className="flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-mono font-medium text-slate-300 hover:text-white bg-slate-900/80 hover:bg-slate-800 border border-white/10 hover:border-cyan-500/40 rounded-full transition-all duration-200"
           >
             <Download className="w-3.5 h-3.5 text-cyan-400" />
@@ -122,7 +135,9 @@ export default function Navbar() {
         {/* Mobile Hamburger Toggle */}
         <button
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          aria-label="Toggle navigation menu"
+          aria-label={mobileMenuOpen ? 'Close navigation menu' : 'Open navigation menu'}
+          aria-expanded={mobileMenuOpen}
+          aria-controls="mobile-menu"
           className="lg:hidden p-2 rounded-xl bg-slate-900/80 border border-white/10 text-slate-300 hover:text-white hover:border-cyan-500/40 transition-colors"
         >
           {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
@@ -131,7 +146,7 @@ export default function Navbar() {
 
       {/* Mobile Navigation Drawer */}
       {mobileMenuOpen && (
-        <div className="lg:hidden mt-3 p-5 rounded-2xl bg-slate-950/95 backdrop-blur-2xl border border-cyan-500/30 shadow-2xl shadow-black/80 flex flex-col gap-2 animate-in fade-in zoom-in-95 duration-200">
+        <nav id="mobile-menu" aria-label="Mobile" className="lg:hidden mt-3 p-5 rounded-2xl bg-slate-950/95 backdrop-blur-2xl border border-cyan-500/30 shadow-2xl shadow-black/80 flex flex-col gap-2 animate-in fade-in zoom-in-95 duration-200">
           {navLinks.map((link) => (
             <a
               key={link.name}
@@ -146,7 +161,7 @@ export default function Navbar() {
           <div className="pt-3 mt-1 border-t border-white/10 flex flex-col gap-2">
             <a
               href={personalInfo.contact.resumeUrl}
-              download="Lohith_v resume.pdf"
+              download="Lohith_V_Resume.pdf"
               className="flex items-center justify-center gap-2 py-2.5 text-xs font-mono font-medium text-slate-300 bg-slate-900 rounded-xl border border-white/10 hover:border-cyan-500/30"
             >
               <Download className="w-4 h-4 text-cyan-400" />
@@ -161,7 +176,7 @@ export default function Navbar() {
               <ArrowUpRight className="w-4 h-4" />
             </a>
           </div>
-        </div>
+        </nav>
       )}
     </header>
   );

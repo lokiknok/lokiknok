@@ -70,12 +70,6 @@ export default function Services() {
                   ))}
                 </div>
               </div>
-
-              {/* Status Indicator */}
-              <div className="pt-6 mt-6 border-t border-white/5 flex items-center justify-between text-[10px] font-mono text-slate-500">
-                <span>PRACTICAL & PRODUCTION</span>
-                <span className="w-1.5 h-1.5 rounded-full bg-cyan-400" />
-              </div>
             </div>
           );
         })}

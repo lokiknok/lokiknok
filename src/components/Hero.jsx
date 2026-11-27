@@ -1,33 +1,23 @@
-import React, { useState } from 'react';
-import { 
-  ArrowRight, 
-  Download, 
-  Github, 
-  Linkedin, 
-  Mail 
+import React from 'react';
+import {
+  ArrowRight,
+  Download,
+  Github,
+  Linkedin,
+  Mail
 } from 'lucide-react';
 import { personalInfo } from '../data/portfolio';
+import HeroScene from './HeroScene';
 
 export default function Hero() {
-  const [tilt, setTilt] = useState({ x: 0, y: 0 });
-
-  const handleMouseMove = (e) => {
-    const card = e.currentTarget;
-    const rect = card.getBoundingClientRect();
-    const x = e.clientX - rect.left - rect.width / 2;
-    const y = e.clientY - rect.top - rect.height / 2;
-    setTilt({ x: -y * 0.02, y: x * 0.02 });
-  };
-
-  const handleMouseLeave = () => {
-    setTilt({ x: 0, y: 0 });
-  };
-
   return (
-    <section 
-      id="home" 
+    <section
+      id="home"
       className="relative min-h-[92vh] flex items-center justify-center pt-28 sm:pt-36 pb-16 sm:pb-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto overflow-hidden"
     >
+      {/* Real-time WebGL 3D scene (neural globe + wire core + parallax dust) */}
+      <HeroScene />
+
       {/* Background Neon Glows */}
       <div className="absolute top-1/4 left-1/10 w-96 h-96 bg-cyan-500/15 rounded-full blur-[120px] pointer-events-none -z-10" />
       <div className="absolute top-1/3 right-1/10 w-96 h-96 bg-purple-600/15 rounded-full blur-[130px] pointer-events-none -z-10" />
@@ -50,7 +40,7 @@ export default function Hero() {
 
           {/* Main Heading: PYTHON & AI/ML DEVELOPER */}
           <div className="space-y-1">
-            <h1 className="font-heading text-4xl sm:text-6xl xl:text-7xl font-bold tracking-tight text-white leading-tight">
+            <h1 className="text-3d font-heading text-4xl sm:text-6xl xl:text-7xl font-bold tracking-tight text-white leading-tight">
               PYTHON & <span className="text-neon-gradient">AI/ML</span> <br />
               <span className="bg-gradient-to-r from-white via-slate-200 to-slate-400 bg-clip-text text-transparent">
                 DEVELOPER
@@ -80,7 +70,7 @@ export default function Hero() {
 
             <a
               href={personalInfo.contact.resumeUrl}
-              download="Lohith_v resume.pdf"
+              download="Lohith_V_Resume.pdf"
               className="group flex-1 sm:flex-none inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-2xl bg-slate-900/80 hover:bg-slate-800 text-slate-200 hover:text-white font-mono font-medium text-xs sm:text-sm border border-slate-700 hover:border-cyan-500/40 transition-all duration-300 shadow-glass-dark hover:-translate-y-0.5"
             >
               DOWNLOAD RESUME
@@ -135,48 +125,50 @@ export default function Hero() {
         {/* Right Column: Authentic Profile Visual Environment */}
         <div className="lg:col-span-5 flex justify-center items-center relative mt-6 lg:mt-0">
           
-          {/* Futuristic Orbiting Glowing Rings */}
-          <div className="absolute w-[360px] h-[360px] sm:w-[440px] sm:h-[440px] orbit-ring animate-spin-slow pointer-events-none" />
-          <div className="absolute w-[420px] h-[420px] sm:w-[500px] sm:h-[500px] orbit-ring-purple animate-spin-reverse-slow pointer-events-none" />
-
-
-
-          {/* Futuristic Frame Container with 3D Tilt */}
+          {/* Portrait card: tilts with the mouse; inner layers sit at different
+              depths (depth-1/2/3) so they shift against each other in 3D. */}
           <div
-            onMouseMove={handleMouseMove}
-            onMouseLeave={handleMouseLeave}
-            style={{
-              transform: `perspective(1000px) rotateX(${tilt.x}deg) rotateY(${tilt.y}deg)`,
-              transition: 'transform 0.15s ease-out',
-            }}
-            className="relative w-full max-w-[310px] sm:max-w-[360px] p-3 rounded-[32px] bg-slate-900/60 backdrop-blur-2xl border border-white/10 shadow-2xl shadow-cyan-950/40 group"
+            data-tilt
+            data-tilt-max="16"
+            className="relative w-full max-w-[310px] sm:max-w-[360px] p-3 rounded-[32px] bg-slate-900/70 border border-white/10 shadow-2xl shadow-cyan-950/40 group"
           >
-            {/* Ambient Cyan/Purple Edge Glow */}
-            <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500/30 via-blue-500/20 to-purple-600/30 rounded-[34px] blur-xl opacity-60 group-hover:opacity-90 transition-opacity -z-10" />
+            {/* Ambient Cyan/Purple Edge Glow, pushed behind the card */}
+            <div
+              className="absolute -inset-1 bg-gradient-to-r from-cyan-500/30 via-blue-500/20 to-purple-600/30 rounded-[34px] blur-xl opacity-60 group-hover:opacity-90 transition-opacity pointer-events-none"
+              style={{ transform: 'translateZ(-40px)' }}
+            />
 
-            {/* Futuristic Tech Corner Accents */}
-            <div className="absolute top-2 left-2 w-3.5 h-3.5 border-t-2 border-l-2 border-cyan-400 rounded-tl-lg pointer-events-none z-30" />
-            <div className="absolute top-2 right-2 w-3.5 h-3.5 border-t-2 border-r-2 border-cyan-400 rounded-tr-lg pointer-events-none z-30" />
-            <div className="absolute bottom-2 left-2 w-3.5 h-3.5 border-b-2 border-l-2 border-purple-400 rounded-bl-lg pointer-events-none z-30" />
-            <div className="absolute bottom-2 right-2 w-3.5 h-3.5 border-b-2 border-r-2 border-purple-400 rounded-br-lg pointer-events-none z-30" />
+            {/* Futuristic Tech Corner Accents (float above the photo) */}
+            <div className="depth-2 absolute top-2 left-2 w-3.5 h-3.5 border-t-2 border-l-2 border-cyan-400 rounded-tl-lg pointer-events-none z-30" />
+            <div className="depth-2 absolute top-2 right-2 w-3.5 h-3.5 border-t-2 border-r-2 border-cyan-400 rounded-tr-lg pointer-events-none z-30" />
+            <div className="depth-2 absolute bottom-2 left-2 w-3.5 h-3.5 border-b-2 border-l-2 border-purple-400 rounded-bl-lg pointer-events-none z-30" />
+            <div className="depth-2 absolute bottom-2 right-2 w-3.5 h-3.5 border-b-2 border-r-2 border-purple-400 rounded-br-lg pointer-events-none z-30" />
+
+            {/* Floating 3D skill badges */}
+            <div className="depth-3 absolute -left-5 sm:-left-10 top-10 z-40 pointer-events-none" aria-hidden="true">
+              <div className="animate-float-slow px-3 py-1.5 rounded-xl bg-slate-950/90 border border-cyan-400/40 shadow-neon-cyan text-[11px] font-mono font-semibold text-cyan-300">
+                {'</>'} Python
+              </div>
+            </div>
+            <div className="depth-3 absolute -right-4 sm:-right-8 bottom-16 z-40 pointer-events-none" aria-hidden="true">
+              <div className="animate-float-slow px-3 py-1.5 rounded-xl bg-slate-950/90 border border-purple-400/40 shadow-neon-purple text-[11px] font-mono font-semibold text-purple-300" style={{ animationDelay: '-3.5s' }}>
+                AI / ML
+              </div>
+            </div>
 
             {/* Profile Video / Visual Showcase */}
-            <div className="relative rounded-[24px] overflow-hidden bg-slate-950 aspect-[4/5] shadow-inner">
-              <video
-                src="./assets/Use_the_uploaded_image_as_the.mp4"
-                poster="./assets/profile.jpg"
-                autoPlay
-                loop
-                muted
-                playsInline
-                className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-[1.03]"
-              >
+            <div className="depth-1 relative rounded-[24px] overflow-hidden bg-slate-950 aspect-[4/5] shadow-inner">
+              <picture>
                 <img
-                  src="./assets/profile.jpg"
-                  alt="Lohith V - Python & AI/ML Developer"
-                  className="w-full h-full object-cover object-center"
+                  src="./assets/profile_suit.jpg"
+                  alt="Lohith V - Python & AI/ML Developer in a black suit"
+                  width="504"
+                  height="614"
+                  fetchpriority="high"
+                  decoding="async"
+                  className="w-full h-full object-cover object-top"
                 />
-              </video>
+              </picture>
 
               {/* Futuristic Glass Reflection Sheen */}
               <div className="absolute inset-0 bg-gradient-to-tr from-cyan-950/20 via-transparent to-white/10 pointer-events-none" />

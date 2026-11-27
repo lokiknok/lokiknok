@@ -27,7 +27,7 @@ export default function Skills() {
           </h2>
         </div>
         <p className="text-xs sm:text-sm font-mono text-slate-400 max-w-xs">
-          Categorized by core domain. Realistic proficiency indicators with zero fake percentage metrics.
+          Tools and technologies I use to build, automate and ship Python applications.
         </p>
       </div>
 
@@ -81,12 +81,6 @@ export default function Skills() {
                     </div>
                   ))}
                 </div>
-              </div>
-
-              {/* Bottom Subtle Accent */}
-              <div className="pt-4 mt-4 border-t border-white/5 flex items-center justify-between text-[10px] font-mono text-slate-500">
-                <span>VERIFIED SKILL</span>
-                <span className="w-1.5 h-1.5 rounded-full bg-cyan-400" />
               </div>
 
             </div>

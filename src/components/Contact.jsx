@@ -6,10 +6,15 @@ export default function Contact() {
   const [copied, setCopied] = useState(false);
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
 
-  const copyEmail = () => {
-    navigator.clipboard.writeText(personalInfo.contact.email);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2500);
+  const copyEmail = async () => {
+    try {
+      await navigator.clipboard.writeText(personalInfo.contact.email);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2500);
+    } catch {
+      // Clipboard can be blocked (e.g. non-HTTPS); fall back to the mail app.
+      window.location.href = `mailto:${personalInfo.contact.email}`;
+    }
   };
 
   const handleSendEmail = (e) => {
@@ -138,7 +143,7 @@ export default function Contact() {
                 </div>
                 <div className="flex items-center gap-2">
                   <Phone className="w-3.5 h-3.5 text-cyan-400" />
-                  <span>{personalInfo.contact.phone}</span>
+                  <a href={`tel:${personalInfo.contact.phone.replace(/\s/g, '')}`} className="hover:text-cyan-400 transition-colors">{personalInfo.contact.phone}</a>
                 </div>
               </div>
 
@@ -158,10 +163,13 @@ export default function Contact() {
               <form onSubmit={handleSendEmail} className="space-y-4">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="space-y-1.5">
-                    <label className="text-xs font-mono text-slate-300 font-medium">
+                    <label htmlFor="contact-name" className="text-xs font-mono text-slate-300 font-medium">
                       YOUR NAME
                     </label>
                     <input
+                      id="contact-name"
+                      name="name"
+                      autoComplete="name"
                       type="text"
                       required
                       placeholder="e.g. Alex Smith"
@@ -172,10 +180,13 @@ export default function Contact() {
                   </div>
 
                   <div className="space-y-1.5">
-                    <label className="text-xs font-mono text-slate-300 font-medium">
+                    <label htmlFor="contact-email" className="text-xs font-mono text-slate-300 font-medium">
                       YOUR EMAIL
                     </label>
                     <input
+                      id="contact-email"
+                      name="email"
+                      autoComplete="email"
                       type="email"
                       required
                       placeholder="name@example.com"
@@ -187,13 +198,15 @@ export default function Contact() {
                 </div>
 
                 <div className="space-y-1.5">
-                  <label className="text-xs font-mono text-slate-300 font-medium">
+                  <label htmlFor="contact-message" className="text-xs font-mono text-slate-300 font-medium">
                     MESSAGE / PROJECT DETAILS
                   </label>
                   <textarea
+                    id="contact-message"
+                    name="message"
                     rows={4}
                     required
-                    placeholder="Hi Park, I came across your portfolio and wanted to discuss an opportunity..."
+                    placeholder="Hi Lohith, I came across your portfolio and wanted to discuss an opportunity..."
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                     className="w-full px-4 py-2.5 rounded-xl bg-slate-950/70 border border-white/10 text-white placeholder:text-slate-600 text-sm focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 transition-all resize-none font-sans"
@@ -208,11 +221,6 @@ export default function Contact() {
                   SEND MESSAGE
                 </button>
               </form>
-
-              {/* Developer note on backend connection */}
-              <div className="mt-4 pt-4 border-t border-white/5 text-[11px] font-mono text-slate-500">
-                Tip: Ready to link to Formspree, EmailJS, or custom Flask backend in <code className="text-slate-400">src/components/Contact.jsx</code>.
-              </div>
 
             </div>
           </div>

@@ -1,9 +1,27 @@
-import React, { useState } from 'react';
-import { Github, ExternalLink, Sparkles, ArrowRight, Bot, Clock, Terminal, Layers, Check, X } from 'lucide-react';
+import React, { useEffect, useRef, useState } from 'react';
+import { Github, ExternalLink, Sparkles, ArrowRight, Bot, Clock, Check, X } from 'lucide-react';
 import { projects } from '../data/portfolio';
 
 export default function Projects() {
   const [activeModalProject, setActiveModalProject] = useState(null);
+  const closeButtonRef = useRef(null);
+
+  // While the dialog is open: lock page scroll, close on Escape, move focus
+  // into the dialog, and return focus to the card button afterwards.
+  useEffect(() => {
+    if (!activeModalProject) return;
+    const previouslyFocused = document.activeElement;
+    const { overflow } = document.body.style;
+    document.body.style.overflow = 'hidden';
+    closeButtonRef.current?.focus();
+    const onKey = (e) => e.key === 'Escape' && setActiveModalProject(null);
+    window.addEventListener('keydown', onKey);
+    return () => {
+      document.body.style.overflow = overflow;
+      window.removeEventListener('keydown', onKey);
+      previouslyFocused?.focus?.();
+    };
+  }, [activeModalProject]);
 
   return (
     <section id="projects" className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto scroll-mt-24">
@@ -26,7 +44,7 @@ export default function Projects() {
       </div>
 
       {/* Projects Grid */}
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
         {projects.map((project, idx) => {
           const isFeatured = project.featured;
           const isPlaceholder = project.isPlaceholder;
@@ -128,7 +146,7 @@ export default function Projects() {
                     </a>
                   ) : (
                     <span className="text-[10px] font-mono text-slate-500 px-2 py-1">
-                      {isPlaceholder ? 'Planned' : 'Local / CLI'}
+                      {isPlaceholder ? 'Planned' : 'Runs locally'}
                     </span>
                   )}
                 </div>
@@ -138,7 +156,7 @@ export default function Projects() {
                     onClick={() => setActiveModalProject(project)}
                     className="inline-flex items-center gap-1 text-xs font-mono font-semibold text-cyan-400 hover:text-cyan-300 py-1.5 px-2.5 rounded-lg hover:bg-cyan-500/10 transition-all"
                   >
-                    Architecture
+                    Details
                     <ArrowRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
                   </button>
                 )}
@@ -155,11 +173,15 @@ export default function Projects() {
           className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-black/70 backdrop-blur-md transition-all duration-200"
           onClick={() => setActiveModalProject(null)}
         >
-          <div 
+          <div
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="project-dialog-title"
             className="relative w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-3xl bg-slate-950 border border-cyan-500/40 shadow-2xl p-6 sm:p-8 space-y-6 animate-in fade-in zoom-in-95 duration-200"
             onClick={(e) => e.stopPropagation()}
           >
             <button
+              ref={closeButtonRef}
               onClick={() => setActiveModalProject(null)}
               className="absolute top-5 right-5 p-2 rounded-xl bg-slate-900 text-slate-400 hover:text-white border border-white/10 hover:border-cyan-500/40 transition-colors"
               aria-label="Close dialog"
@@ -171,7 +193,7 @@ export default function Projects() {
               <span className="text-xs font-mono font-bold text-cyan-400 px-2.5 py-0.5 rounded-md bg-cyan-500/10 border border-cyan-500/30">
                 {activeModalProject.category}
               </span>
-              <h3 className="font-heading text-2xl sm:text-3xl font-bold text-white">
+              <h3 id="project-dialog-title" className="font-heading text-2xl sm:text-3xl font-bold text-white">
                 {activeModalProject.title}
               </h3>
             </div>
@@ -179,7 +201,7 @@ export default function Projects() {
             <div className="rounded-2xl bg-slate-900/90 border border-white/10 p-5 font-mono text-xs text-slate-300 space-y-2.5">
               <div className="text-cyan-400 font-bold pb-1 border-b border-white/5 flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse" />
-                EXECUTION PIPELINE
+                HOW IT WORKS
               </div>
               <div>{activeModalProject.pipeline}</div>
             </div>
@@ -211,7 +233,7 @@ export default function Projects() {
 
             <div className="space-y-2">
               <h4 className="text-xs font-mono uppercase font-semibold text-slate-400 tracking-wider">
-                TECHNOLOGY BADGES
+                TECH STACK
               </h4>
               <div className="flex flex-wrap gap-2">
                 {activeModalProject.tags.map((tag) => (

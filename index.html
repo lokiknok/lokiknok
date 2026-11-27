@@ -2,34 +2,64 @@
 <html lang="en" class="scroll-smooth dark">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="apple-touch-icon" href="./assets/avatar.jpg" />
+    <meta name="theme-color" content="#070a12" />
+
     <!-- Title & SEO Metadata -->
     <title>Lohith V | Python & AI/ML Developer</title>
-    <meta name="description" content="BCA graduate and Python-focused developer working with AI, Machine Learning, automation and backend technologies." />
-    <meta name="keywords" content="Python, AI, Machine Learning, Automation, Playwright, Flask, Developer, BCA, Lohith V" />
+    <meta name="description" content="Lohith V — BCA graduate and Python developer building AI/ML applications, RAG document assistants, browser automation and Flask APIs. Open to entry-level roles." />
     <meta name="author" content="Lohith V" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://lokiknok.onrender.com/" />
 
-    <!-- Open Graph Metadata for Social Previews & Recruiter Sharing -->
-    <meta property="og:type" content="website" />
+    <!-- Open Graph (LinkedIn, WhatsApp, Slack previews) — absolute URLs are required -->
+    <meta property="og:type" content="profile" />
+    <meta property="og:url" content="https://lokiknok.onrender.com/" />
     <meta property="og:title" content="Lohith V | Python & AI/ML Developer" />
-    <meta property="og:description" content="BCA graduate and Python-focused developer working with AI, Machine Learning, automation and backend technologies." />
-    <meta property="og:image" content="./assets/profile.jpg" />
-    <meta property="og:site_name" content="Lohith V Developer Portfolio" />
+    <meta property="og:description" content="Python developer building AI/ML apps, RAG assistants and browser automation. Open to entry-level roles." />
+    <meta property="og:image" content="https://lokiknok.onrender.com/assets/profile_suit.jpg" />
+    <meta property="og:image:alt" content="Portrait of Lohith V" />
+    <meta property="og:site_name" content="Lohith V Portfolio" />
 
-    <!-- Twitter Card Metadata -->
-    <meta name="twitter:card" content="summary_large_image" />
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Lohith V | Python & AI/ML Developer" />
-    <meta name="twitter:description" content="BCA graduate and Python-focused developer working with AI, Machine Learning, automation and backend technologies." />
-    <meta name="twitter:image" content="./assets/profile.jpg" />
+    <meta name="twitter:description" content="Python developer building AI/ML apps, RAG assistants and browser automation." />
+    <meta name="twitter:image" content="https://lokiknok.onrender.com/assets/profile_suit.jpg" />
 
-    <!-- Google Fonts: Space Grotesk & Inter -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Structured data so search engines understand who this page is about -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Lohith V",
+        "jobTitle": "Python & AI/ML Developer",
+        "url": "https://lokiknok.onrender.com/",
+        "image": "https://lokiknok.onrender.com/assets/profile_suit.jpg",
+        "address": { "@type": "PostalAddress", "addressLocality": "Tiruppur", "addressRegion": "Tamil Nadu", "addressCountry": "IN" },
+        "alumniOf": "Chikkanna Government Arts College, Bharathiar University",
+        "knowsAbout": ["Python", "Machine Learning", "Artificial Intelligence", "RAG", "Flask", "Playwright", "Selenium", "SQL"],
+        "sameAs": ["https://github.com/lokiknok", "https://linkedin.com/in/lohith-v-984176296"]
+      }
+    </script>
+
+    <!-- Fonts: preconnect + only the weights the site uses -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Start downloading the hero portrait early -->
+    <link rel="preload" as="image" href="./assets/profile_suit.jpg" />
   </head>
   <body class="bg-[#070a12] text-slate-100 font-sans antialiased selection:bg-cyan-500/30 selection:text-cyan-200 overflow-x-hidden min-h-screen">
+    <noscript>
+      <p style="padding:2rem;color:#e2e8f0;font-family:sans-serif">
+        Lohith V — Python & AI/ML Developer. Please enable JavaScript to view this portfolio,
+        or visit <a href="https://github.com/lokiknok" style="color:#38bdf8">github.com/lokiknok</a>.
+      </p>
+    </noscript>
     <div id="root"></div>
     <script type="module" src="./src/main.jsx"></script>
   </body>

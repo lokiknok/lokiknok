@@ -16,7 +16,10 @@ export default function Footer() {
           <div className="flex items-center gap-2.5">
             <img
               src="./assets/avatar.jpg"
-              alt="Lohith V"
+              alt=""
+              width="28"
+              height="28"
+              loading="lazy"
               className="w-7 h-7 rounded-lg object-cover border border-cyan-500/30"
             />
             <div className="flex items-center gap-2 font-heading font-bold text-base text-white tracking-wider">
@@ -28,7 +31,7 @@ export default function Footer() {
             </div>
           </div>
           <p className="text-xs font-mono text-slate-500">
-            © 2026 {personalInfo.name}. All rights reserved.
+            © {new Date().getFullYear()} {personalInfo.name}. All rights reserved.
           </p>
         </div>
 
@@ -54,7 +57,7 @@ export default function Footer() {
           </a>
           <a
             href={`mailto:${personalInfo.contact.email}`}
-            aria-label="Email Park"
+            aria-label="Email Lohith"
             className="p-2 rounded-xl bg-slate-900 text-slate-400 hover:text-cyan-300 hover:bg-slate-800 border border-white/5 transition-colors"
           >
             <Mail className="w-4 h-4" />
